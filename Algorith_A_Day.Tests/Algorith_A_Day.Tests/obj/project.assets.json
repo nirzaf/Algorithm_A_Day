@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "coverlet.collector/1.3.0": {
         "type": "package",
         "build": {
@@ -1651,7 +1651,7 @@
       },
       "Algorithm_A_Day/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/Algorithm_A_Day.dll": {}
         },
@@ -5629,7 +5629,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "Algorithm_A_Day >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "coverlet.collector >= 1.3.0",
@@ -5654,15 +5654,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
             "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj": {
               "projectPath": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj"
@@ -5677,8 +5677,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
