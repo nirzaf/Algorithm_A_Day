@@ -8,31 +8,9 @@ namespace Algorithm_A_Day.Basics
         public static int Fib(int number)
         {
             //IT FINDS NTH FIBONACCI NUMBER
-            if (number <= 1)
-            {
-                Console.WriteLine(number);
-                return number;
-            }
-            else
-            {
-                //Console.WriteLine(Fib(number - 1) + Fib(number - 2));
-                return Fib(number - 1) + Fib(number - 2);
-            }
-            //f(0) = 0;
-            //f(1) = 1;
-
-            //f(2th) = f(1th) + f(0th)
-            //f(2th) = 1 + 0 = 1
-
-
-            //f(3th) = f(2th) + f(1th) 
-            //f(3th) = [f(1th) + f(0th)] + f(1th) SOOOO
-            //f(3th) = [1 + 0] + 1  = 2
-
-            //f(4th) = f(3th) + f(2th) 
-            //f(4th) = [f(2th) + f(1th)] + [f(1th) + f(0th)]
-            //f(4th) = [f(1th) + f(0th) + f(1th)] + [f(1th) + f(0th)]
-
+            if (number > 1) return Fib(number - 1) + Fib(number - 2);
+            Console.WriteLine(number);
+            return number;
         }
 
 
