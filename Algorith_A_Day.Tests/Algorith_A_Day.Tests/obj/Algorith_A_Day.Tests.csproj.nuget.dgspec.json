@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#Projects\\AAD\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj": {}
+    "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj": {}
   },
   "projects": {
-    "D:\\C#Projects\\AAD\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj": {
+    "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#Projects\\AAD\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj",
+        "projectUniqueName": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj",
         "projectName": "Algorith_A_Day.Tests",
-        "projectPath": "D:\\C#Projects\\AAD\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj",
-        "packagesPath": "C:\\Users\\franek\\.nuget\\packages\\",
-        "outputPath": "D:\\C#Projects\\AAD\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\obj\\",
+        "projectPath": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests.csproj",
+        "packagesPath": "C:\\Users\\Fazrin\\.nuget\\packages\\",
+        "outputPath": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day.Tests\\Algorith_A_Day.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\franek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fazrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\C#Projects\\AAD\\Algorith_A_Day\\Algorithm_A_Day.csproj": {
-                "projectPath": "D:\\C#Projects\\AAD\\Algorith_A_Day\\Algorithm_A_Day.csproj"
+              "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj": {
+                "projectPath": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj"
               }
             }
           }
@@ -80,21 +80,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\C#Projects\\AAD\\Algorith_A_Day\\Algorithm_A_Day.csproj": {
+    "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#Projects\\AAD\\Algorith_A_Day\\Algorithm_A_Day.csproj",
+        "projectUniqueName": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj",
         "projectName": "Algorithm_A_Day",
-        "projectPath": "D:\\C#Projects\\AAD\\Algorith_A_Day\\Algorithm_A_Day.csproj",
-        "packagesPath": "C:\\Users\\franek\\.nuget\\packages\\",
-        "outputPath": "D:\\C#Projects\\AAD\\Algorith_A_Day\\obj\\",
+        "projectPath": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\Algorithm_A_Day.csproj",
+        "packagesPath": "C:\\Users\\Fazrin\\.nuget\\packages\\",
+        "outputPath": "E:\\Repos\\Algorithms_Examples\\Algorith_A_Day\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\franek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fazrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

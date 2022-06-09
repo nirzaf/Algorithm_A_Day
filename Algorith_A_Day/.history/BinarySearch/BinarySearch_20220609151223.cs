@@ -63,6 +63,8 @@ namespace BST.Searches
                 {
                     left = mid + 1;
                 }
+
+
             }
             return -1;
 
@@ -86,6 +88,7 @@ namespace BST.Searches
             }
             return low;
         }
+
 
     }
 }

@@ -7,7 +7,7 @@ namespace Algorithm_A_Day.BinarySearch
     /// <summary>
     /// Goal: searching sorted unbounded/infinite arrays
     /// It's important mostly in huge arrays
-    /// Exponectial search used BS in a way that it detrmines RANGE in which the target is.
+    /// Exponential search used BS in a way that it determines RANGE in which the target is.
     /// { 1, 2, 3, 4, 5, 6, 7, 15, 21, 50, 200, 400 } target 21 
     /// the range will be 8/2 for left and 8 so { 5, 6, 7, 15, 21 } 
     /// so binary search(arr, 4, 8, target)
