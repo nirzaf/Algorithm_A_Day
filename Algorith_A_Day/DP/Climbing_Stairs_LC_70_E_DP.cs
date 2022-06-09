@@ -53,7 +53,7 @@ namespace Algorithm_A_Day.DP
         // todo: good recursion
         public int ClimbStairs3(int n)
         {
-            Dictionary<int, int> mem = new Dictionary<int, int>();
+            Dictionary<int, int> mem = new();
             mem.Add(0, 0);
             mem.Add(1, 1);
             mem.Add(2, 2);
@@ -66,23 +66,5 @@ namespace Algorithm_A_Day.DP
             mem.Add(n, result);
             return result;
         }
-
-
-        //JS
-        //var climbStairs = function(n) {
-        //       if (n< 0) return 0;
-
-        //    result = [];
-
-        //    result[0] = 1;
-        //    result[1] = 1;
-
-        //    for (i = 2; i <= n; i++)
-        //    {
-        //        result[i] = result[i - 1] + result[i - 2];
-        //    }
-
-        //    return result[n];
-        //};
     }
 }
