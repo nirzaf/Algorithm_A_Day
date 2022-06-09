@@ -1,9 +1,10 @@
 ﻿namespace Algorithm_A_Day.BinarySearch
 {
     /// <summary>
-    /// Goal: Find a peak element of an array (not smaller than neighbors)
+    /// Goal: Find a peak element of an array (not smaller than neighbours)
     /// peak is an el bigger than the next and prev (or first/last el respectively) 
-    /// arr can have multiple peaks we want any one of them
+    /// arr can have multiple peaks we want any
+    /// 
     /// here we use idea similar to BS not exactly itself
     /// recursive solution time complexity is O(log(n))
     /// </summary>
@@ -14,7 +15,7 @@
         {
             int mid = left + (right - left) / 2;
             
-            //base case we check if mid el is greater than neighbors
+            //base case we check if mid el is greater than neighbours
             //it takes care of special cases of last and first el
             //so if mid == 0 and next el is smaller, its peak
             //if mid ==len -1 and previous is smaller, its peak
@@ -34,7 +35,7 @@
 
         }
         
-        //interactively
+        //interatively
         public static int FindPeakIter(int[] arr)
         {
             int left = 0;

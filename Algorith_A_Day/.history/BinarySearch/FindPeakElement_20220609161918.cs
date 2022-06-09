@@ -3,7 +3,8 @@
     /// <summary>
     /// Goal: Find a peak element of an array (not smaller than neighbors)
     /// peak is an el bigger than the next and prev (or first/last el respectively) 
-    /// arr can have multiple peaks we want any one of them
+    /// arr can have multiple peaks we want any
+    /// 
     /// here we use idea similar to BS not exactly itself
     /// recursive solution time complexity is O(log(n))
     /// </summary>
