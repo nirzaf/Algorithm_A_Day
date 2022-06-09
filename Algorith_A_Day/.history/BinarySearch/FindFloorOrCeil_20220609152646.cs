@@ -8,8 +8,10 @@
     /// 5 ceiling = 6, floor 4 
     /// 9 ceiling = 9, floor 9 
     /// 10 ceiling = -1, floor 9 -1 because it is not in arr 
+    /// 
     /// For ceiling it is the smallest int in arr but >= target
     /// For floor it is the largest int in arr but  <= target
+    /// 
     /// https://www.techiedelight.com/find-floor-ceil-number-sorted-array/
     /// </summary>
     public class FindFloorOrCeil

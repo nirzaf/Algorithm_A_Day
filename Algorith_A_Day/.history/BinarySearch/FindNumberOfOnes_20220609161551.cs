@@ -68,7 +68,9 @@
             //base cases
             if (arr[right] == 0) return 0;
             if (arr[left] == 1) return right - left +1;
+
             int mid = left + (right - left) / 2;
+
             //we split arr into 2 halves and recur for both halves
             return FindOnesRecur2(arr, left, mid) + FindOnesRecur2(arr, mid + 1, right);
         }

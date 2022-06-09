@@ -13,14 +13,14 @@
         //iteratively
         public static int FindOnes(int[] arr)
         {
-            int firstOccurrence = -1;
+            int firstOccurance = -1;
             int left = 0;
             int right = arr.Length - 1;
 
             //if last el is 0 all the rest is 0 so no 1s
             if (arr[right] == 0) return 0;
             //if first el is 1 all the rest are 1s
-            //so return arr.length since its sorted
+            //so return arr.lenght since its sorted
             if (arr[left] == 1) return right - left + 1;
 
             while (left <= right)
@@ -29,7 +29,7 @@
 
                 if (arr[mid] == 1)
                 {
-                    firstOccurrence = mid;
+                    firstOccurance = mid;
                     right = mid - 1;
                     
                 } 
@@ -38,7 +38,7 @@
                     left = mid + 1;
                 }
             }
-            return arr.Length - firstOccurrence;
+            return arr.Length - firstOccurance;
         }
         
         //recursively
@@ -68,7 +68,9 @@
             //base cases
             if (arr[right] == 0) return 0;
             if (arr[left] == 1) return right - left +1;
+
             int mid = left + (right - left) / 2;
+
             //we split arr into 2 halves and recur for both halves
             return FindOnesRecur2(arr, left, mid) + FindOnesRecur2(arr, mid + 1, right);
         }

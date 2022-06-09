@@ -26,14 +26,14 @@
 
                 if (arr[mid] == target) result = arr[mid];
 
-                if (arr[mid] < target)
-                {
-                    left = mid + 1;
-                }
-                else// (arr[mid] > target)
+                if (arr[mid] >= target)
                 {
                     result = arr[mid];
                     right = mid - 1;
+                }
+                else// (arr[mid] > target)
+                {
+                    left = mid + 1;
                 }
 
             }
