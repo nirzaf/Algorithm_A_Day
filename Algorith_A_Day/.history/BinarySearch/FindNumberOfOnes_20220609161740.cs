@@ -2,9 +2,11 @@
 {
     /// <summary>
     /// Goal: Given sorted binary array find number of 1s
-    /// Idea: Find accurance of first 1 and subtracts its index from len of arr
+    /// 
+    /// Idea: Find accurance of first 1 and substract its index from len of arr
     /// { 0, 0, 0, 0, 1, 1, 1 } 3
     /// { 0, 0, 1, 1, 1, 1, 1 } 5
+    /// 
     /// </summary>
     public class FindNumberOfOnes
     {

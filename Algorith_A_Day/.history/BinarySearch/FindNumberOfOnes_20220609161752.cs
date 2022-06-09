@@ -5,6 +5,7 @@
     /// Idea: Find accurance of first 1 and subtracts its index from len of arr
     /// { 0, 0, 0, 0, 1, 1, 1 } 3
     /// { 0, 0, 1, 1, 1, 1, 1 } 5
+    /// 
     /// </summary>
     public class FindNumberOfOnes
     {
