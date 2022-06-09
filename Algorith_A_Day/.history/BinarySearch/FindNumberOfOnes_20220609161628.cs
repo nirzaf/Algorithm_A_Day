@@ -49,6 +49,7 @@
             if (left > right) return arr.Length - left;
             int mid = left + (right - left) / 2;
 
+
             if (arr[mid] == 1)
             {
                 return FindOnesRecur(arr, left, mid - 1);
