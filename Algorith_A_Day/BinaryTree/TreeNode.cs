@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BST.Traversals
+﻿namespace BST.Traversals
 {
     public class TreeNode
     {

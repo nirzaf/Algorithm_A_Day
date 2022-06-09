@@ -1,9 +1,4 @@
 ﻿using Algorithm_A_Day.Patterns.MergeIntervals.InsertInterval;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Algorith_A_Day.Tests.Patterns.MergeIntervals.InsertInterval

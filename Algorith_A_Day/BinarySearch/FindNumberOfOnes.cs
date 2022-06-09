@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Text;
-
-namespace Algorithm_A_Day.BinarySearch
+﻿namespace Algorithm_A_Day.BinarySearch
 {
     /// <summary>
     /// Goal: Given sorted binary array find number of 1s

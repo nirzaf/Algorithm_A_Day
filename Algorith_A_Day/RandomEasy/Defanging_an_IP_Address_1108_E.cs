@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.RandomEasy
+﻿namespace Algorithm_A_Day.RandomEasy
 {
     class Defanging_an_IP_Address_1108_E
     {

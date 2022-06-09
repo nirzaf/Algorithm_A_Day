@@ -1,8 +1,5 @@
-﻿using Algorithm_A_Day.Extensions;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading;
 
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window

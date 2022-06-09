@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_A_Day.RandomEasy
+﻿namespace Algorithm_A_Day.RandomEasy
 {
 
     // check if number is an int https://stackoverflow.com/questions/2751593/how-to-determine-if-a-decimal-double-is-an-integer

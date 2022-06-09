@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-
-namespace Algorithm_A_Day.BinarySearch
+﻿namespace Algorithm_A_Day.BinarySearch
 {   /// <summary>
     /// Goal is to find int target in rotated sorted array
     /// Most important here is to understand there is a pivot element

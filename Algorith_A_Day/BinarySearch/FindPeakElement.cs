@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.BinarySearch
+﻿namespace Algorithm_A_Day.BinarySearch
 {
     /// <summary>
     /// Goal: Find a peak element of an array (not smaller than neighbours)

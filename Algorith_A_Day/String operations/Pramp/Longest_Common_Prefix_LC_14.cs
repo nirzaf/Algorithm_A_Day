@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.String_operations.Pramp
+﻿namespace Algorithm_A_Day.String_operations.Pramp
 {
     public class Longest_Common_Prefix_LC_14
     {

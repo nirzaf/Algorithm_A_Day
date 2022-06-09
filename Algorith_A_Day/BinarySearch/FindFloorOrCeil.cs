@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.BinarySearch
+﻿namespace Algorithm_A_Day.BinarySearch
 {
     /// <summary>
     /// Goal: find floor or ceil of a given number in sorted arr of integers.

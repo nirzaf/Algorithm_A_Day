@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Patterns.ModifiedBinarySearch
+﻿namespace Algorithm_A_Day.Patterns.ModifiedBinarySearch
 {
     public class Binary_Search_LC_704
     {

@@ -1,47 +1,8 @@
-﻿using Algorithm_A_Day.BinarySearch;
-using Algorithm_A_Day.NodesModels;
-using Algorithm_A_Day.Grid_Based;
-using Algorithm_A_Day.Patterns._2Pointers;
-using Algorithm_A_Day.Patterns.BFS;
-using Algorithm_A_Day.Patterns.DFS;
-using Algorithm_A_Day.Patterns.Sliding_Window;
-using Algorithm_A_Day.Sorting;
-using Algorithm_A_Day.Sorting.MergeSort;
-using Algorithm_A_Day.String_operations;
+﻿using Algorithm_A_Day.NodesModels;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.Tracing;
-using System.IO.Pipes;
-using System.Linq;
-using System.Net.Sockets;
-using Algorithm_A_Day.Patterns.FastAndSlowPointers;
-using Algorithm_A_Day.Patterns.MergeIntervals;
-using Algorithm_A_Day.Patterns.CyclicSort;
-using Algorithm_A_Day.Patterns.ReverseLinkedList;
-using Algorithm_A_Day.Arrays.Arrays.Pramp;
-using Algorithm_A_Day.Arrays.LeetCode;
-using Algorithm_A_Day.Patterns.Subsets;
-using Algorithm_A_Day.MathRelated.Pramp;
-using Algorithm_A_Day.Patterns.ModifiedBinarySearch;
-using Algorithm_A_Day.Patterns.K_way_Merge;
-using Algorithm_A_Day.Patterns.DP_01Knapsack;
-using Algorithm_A_Day.Extensions;
-using Algorithm_A_Day.Patterns.K_thLargestElement;
-using Algorithm_A_Day.MathRelated;
-using System.Reflection;
-using Algorithm_A_Day.Multidimensional_Arrays;
-using System.Numerics;
 using Algorithm_A_Day.RandomEasy;
-using Algorithm_A_Day.String_operations.Pramp;
-using Algorithm_A_Day.DP;
-using Algorithm_A_Day.Arrays;
-using Algorithm_A_Day.Backtracking;
-using Algorithm_A_Day.Recursion;
 using System.Collections;
-using Algorithm_A_Day.FromCompanies;
-using Algorithm_A_Day.Patterns.MergeIntervals.InsertInterval;
-using Algorithm_A_Day.BinaryTree;
-using Algorithm_A_Day.RandomMedium;
 
 namespace Algorith_A_Day
 {
@@ -143,9 +104,6 @@ namespace Algorith_A_Day
             }
             return new ListNode();
         }
-
-        
-        
     }
 
 

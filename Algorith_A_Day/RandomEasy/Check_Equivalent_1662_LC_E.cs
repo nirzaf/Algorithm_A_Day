@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.RandomEasy
+﻿namespace Algorithm_A_Day.RandomEasy
 {
     public class Check_Equivalent_1662_LC_E
     {

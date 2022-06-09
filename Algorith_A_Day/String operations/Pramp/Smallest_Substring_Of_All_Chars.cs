@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.String_operations.Pramp
+﻿namespace Algorithm_A_Day.String_operations.Pramp
 {
     //todo: to do XD
     public class Smallest_Substring_Of_All_Chars

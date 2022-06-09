@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_A_Day.RandomEasy
+﻿namespace Algorithm_A_Day.RandomEasy
 {
     public class Count_Matrix_LC_1351_E
     {

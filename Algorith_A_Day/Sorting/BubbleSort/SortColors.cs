@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Sorting.BubbleSort
+﻿namespace Algorithm_A_Day.Sorting.BubbleSort
 {
     /// <summary>
     /// Leetcode 75. Sort Colors

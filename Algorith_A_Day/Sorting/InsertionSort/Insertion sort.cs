@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Sorting.InsertionSort
+﻿namespace Algorithm_A_Day.Sorting.InsertionSort
 {
     /// <summary>
     /// Insertion sort in simple terms compare elements.

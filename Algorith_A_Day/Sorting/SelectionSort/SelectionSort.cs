@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Sorting.SelectionSort
+﻿namespace Algorithm_A_Day.Sorting.SelectionSort
 {
     /// <summary>
     /// Selection sort is IN-PLACE sort.

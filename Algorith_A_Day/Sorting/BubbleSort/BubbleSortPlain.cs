@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Sorting.BubbleSort
+﻿namespace Algorithm_A_Day.Sorting.BubbleSort
 {
     /// <summary>
     /// Goal: sort an array. Here every el is compared with next one thus

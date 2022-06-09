@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Algorithm_A_Day.Sorting.Quick_Sort
+﻿namespace Algorithm_A_Day.Sorting.Quick_Sort
 {
     /// <summary>
     /// Quick Sort is Divide and Conquer algorithm

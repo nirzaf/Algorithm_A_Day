@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.String_operations
+﻿namespace Algorithm_A_Day.String_operations
 {
     //TODO: compare to example in Algo file 
     public class Longest_Sub_String

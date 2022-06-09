@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_A_Day.DesignOnes
+﻿namespace Algorithm_A_Day.DesignOnes
 {
     public class Design_Parking_System_LC_1603_E
     {

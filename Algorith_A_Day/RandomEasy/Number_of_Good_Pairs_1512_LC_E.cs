@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.RandomEasy
+﻿namespace Algorithm_A_Day.RandomEasy
 {
     public class Number_of_Good_Pairs_1512_LC_E
     {

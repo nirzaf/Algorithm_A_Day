@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BST.Searches
+﻿namespace BST.Searches
 {
     //SOLUTION IS FOT ARR WITH NO DUPLICATES!!!
     public class BinarySearch

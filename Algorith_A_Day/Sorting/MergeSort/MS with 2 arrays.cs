@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Sorting.MergeSort
+﻿namespace Algorithm_A_Day.Sorting.MergeSort
 {
     public class MS_with_2_arrays
     {

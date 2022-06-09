@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Arrays
+﻿namespace Algorithm_A_Day.Arrays
 {
     public class Running_Sum_of1d_Array_LC_1480_E
     {

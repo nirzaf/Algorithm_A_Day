@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Patterns.CyclicSort
+﻿namespace Algorithm_A_Day.Patterns.CyclicSort
 {
     public class Missing_Number_LC_268
     {

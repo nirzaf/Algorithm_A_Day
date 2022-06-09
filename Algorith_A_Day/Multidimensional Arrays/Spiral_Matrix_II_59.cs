@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Algorithm_A_Day.Multidimensional_Arrays
 {

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Algorithm_A_Day.Basics
+﻿namespace Algorithm_A_Day.Basics
 {
     public class CollatzConjecture
     {
