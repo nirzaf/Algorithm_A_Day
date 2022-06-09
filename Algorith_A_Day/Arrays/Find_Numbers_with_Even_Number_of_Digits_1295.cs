@@ -8,13 +8,7 @@ namespace Algorithm_A_Day.Arrays
         public static int FindNumbers(int[] nums)
         {
             if (nums.Length == 0 || nums == null) throw new Exception();
-
-            int result = 0;
-            foreach (int num in nums)
-            {
-                if (num.ToString().Length % 2 == 0) result++;
-            }
-            return result;
+            return nums.Count(num => num.ToString().Length % 2 == 0);
         }
 
         //LINQ
