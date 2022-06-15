@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Multidimensional_Arrays
 {
-    public class Rotate_Image_LC_48
+    public class RotateImageLc48
     {
         public static void Rotate(int[][] matrix)
         {

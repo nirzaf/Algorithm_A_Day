@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Longest_Repeating_Character_Replacement_LC_424
+    public class LongestRepeatingCharacterReplacementLc424
     {
         /// <summary>
         /// TODO: find brute force, it is sliding window but hard to grasp???

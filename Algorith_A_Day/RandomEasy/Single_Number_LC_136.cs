@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Single_Number_LC_136
+    public class SingleNumberLc136
     {
         //brute force 
         public static int SingleNumber(int[] nums)

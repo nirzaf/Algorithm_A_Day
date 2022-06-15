@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Integer_to_Roman_LC_12
+    public class IntegerToRomanLc12
     {
-        private Numeral[] numerals = {
+        private Numeral[] _numerals = {
             new Numeral( "M",1000),
             new Numeral( "CM", 900),
             new Numeral( "D", 500),
@@ -152,7 +152,7 @@ namespace Algorithm_A_Day.RandomEasy
             if (num <= 0) return "";
 
             string result = string.Empty;
-            foreach(Numeral numeral in numerals)
+            foreach(Numeral numeral in _numerals)
             {
                 int numberOfSymbols = num / numeral.Value;
                 if (numberOfSymbols != 0)

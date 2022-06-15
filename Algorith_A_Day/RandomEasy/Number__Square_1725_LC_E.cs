@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Number__Square_1725_LC_E
+    public class NumberSquare1725LcE
     {
         public static int CountGoodRectangles(int[][] rectangles)
         {

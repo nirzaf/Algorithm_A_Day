@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.K_thLargestElement
 {
-    public class K_Closest_Points_to_Origin_LC_973
+    public class KClosestPointsToOriginLc973
     {
 
         /// <summary>
@@ -12,7 +12,7 @@ namespace Algorithm_A_Day.Patterns.K_thLargestElement
         /// here it is just (pow(x,2) + pow(y,2) becasue origin point is always (0,0)
         /// </summary>
         /// TODO: make it work
-        public static int[][] KClosest(int[][] points, int K)
+        public static int[][] KClosest(int[][] points, int k)
         {
             List<int[]> result = new List<int[]>();
             if (points.Length == 0 || points == null) return result.ToArray();
@@ -43,8 +43,8 @@ namespace Algorithm_A_Day.Patterns.K_thLargestElement
                 //{
                 //    result.Add(points[i]);
                 //}
-                K--;
-                if(K <= 0)
+                k--;
+                if(k <= 0)
                 {
                     break;
                 }
@@ -55,21 +55,21 @@ namespace Algorithm_A_Day.Patterns.K_thLargestElement
 
         }
 
-        public static int[][] KClosest2(int[][] points, int K)
+        public static int[][] KClosest2(int[][] points, int k)
         {
-            SortedDictionary<double, List<int[]>> Sd = new SortedDictionary<double, List<int[]>>();
+            SortedDictionary<double, List<int[]>> sd = new SortedDictionary<double, List<int[]>>();
             foreach (int[] curr in points)
             {
                 double dist = GetDistance(curr);
-                if (!Sd.ContainsKey(dist))
-                    Sd[dist] = new List<int[]>();
-                Sd[dist].Add(curr);
+                if (!sd.ContainsKey(dist))
+                    sd[dist] = new List<int[]>();
+                sd[dist].Add(curr);
             }
             int[][] res = new int[K][];
             int k = 0;
-            foreach (double key in Sd.Keys)
+            foreach (double key in sd.Keys)
             {
-                foreach (int[] p in Sd[key])
+                foreach (int[] p in sd[key])
                 {
                     if (k == K) break;
                     res[k++] = p;

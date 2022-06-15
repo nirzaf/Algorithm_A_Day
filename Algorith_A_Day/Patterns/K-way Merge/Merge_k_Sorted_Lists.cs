@@ -39,7 +39,7 @@ namespace Algorithm_A_Day.Patterns.K_way_Merge
             return node;
         }
     }
-    public class Merge_k_Sorted_Lists
+    public class MergeKSortedLists
     {
         public static ListNode MergeKLists(ListNode[] lists)
         {
@@ -141,11 +141,11 @@ namespace Algorithm_A_Day.Patterns.K_way_Merge
                 ListNode left = Merge(lists, start, mid);
                 ListNode right = Merge(lists, mid + 1, end);
 
-                return merge(left, right);
+                return Merge(left, right);
             }
         }
 
-        private static ListNode merge(ListNode first, ListNode second)
+        private static ListNode Merge(ListNode first, ListNode second)
         {
             ListNode dummy = new ListNode(0);
             ListNode current = dummy;

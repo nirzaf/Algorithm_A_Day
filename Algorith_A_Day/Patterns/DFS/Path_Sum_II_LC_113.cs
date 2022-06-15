@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.DFS
 {
-    public class Path_Sum_II_LC_113
+    public class PathSumIiLc113
     {
         // recursively
         public static IList<IList<int>> PathSum(TreeNode root, int sum)

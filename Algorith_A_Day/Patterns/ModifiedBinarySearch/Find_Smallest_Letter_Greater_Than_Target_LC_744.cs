@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.ModifiedBinarySearch
 {
-    public class Find_Smallest_Letter_Greater_Than_Target_LC_744
+    public class FindSmallestLetterGreaterThanTargetLc744
     {
         /// <summary>
         /// with modulo

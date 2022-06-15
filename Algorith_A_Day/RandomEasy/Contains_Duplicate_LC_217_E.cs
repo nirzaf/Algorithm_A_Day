@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Contains_Duplicate_LC_217_E
+    public class ContainsDuplicateLc217E
     {
         public bool ContainsDuplicate(int[] nums)
         {

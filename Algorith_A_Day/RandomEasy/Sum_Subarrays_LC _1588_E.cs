@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Sum_Subarrays_LC__1588_E
+    public class SumSubarraysLc1588E
     {
         public static int SumOddLengthSubarrays(int[] arr)
         {

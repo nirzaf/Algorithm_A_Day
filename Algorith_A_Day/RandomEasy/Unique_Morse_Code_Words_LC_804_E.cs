@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Unique_Morse_Code_Words_LC_804_E
+    public class UniqueMorseCodeWordsLc804E
     {
         public int UniqueMorseRepresentations(string[] words)
         {

@@ -1,7 +1,7 @@
 ﻿namespace Algorithm_A_Day.String_operations.Pramp
 {
     //todo: to do XD
-    public class Smallest_Substring_Of_All_Chars
+    public class SmallestSubstringOfAllChars
     {
         //public static GetShortestUniqueSubstring(char[] arr, string str)
         //{

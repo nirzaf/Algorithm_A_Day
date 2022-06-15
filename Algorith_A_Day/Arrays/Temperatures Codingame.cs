@@ -8,7 +8,7 @@ namespace Algorithm_A_Day.Arrays.Arrays.Codingame
     /// Goal: Get the closest element to 0;
     /// https://www.codingame.com/ide/puzzle/temperatures
     /// </summary>
-    public class Temperatures_Codingame
+    public class TemperaturesCodingame
     {
         public static int GetTheClosest(int[] arr)
         {

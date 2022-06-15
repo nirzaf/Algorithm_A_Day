@@ -1,12 +1,12 @@
 ﻿namespace Algorithm_A_Day.DesignOnes
 {
-    public class Design_Parking_System_LC_1603_E
+    public class DesignParkingSystemLc1603E
     {
         private int _big;
         private int _medium;
         private int _small;
 
-        public Design_Parking_System_LC_1603_E(int big, int medium, int small)
+        public DesignParkingSystemLc1603E(int big, int medium, int small)
         {
             _big = big;
             _medium = medium;

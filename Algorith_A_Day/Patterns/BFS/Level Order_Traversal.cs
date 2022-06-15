@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.BFS
 {
-    public class Level_Order_Traversal
+    public class LevelOrderTraversal
     {
         //iterative solution
         public static IList<IList<int>> LevelOrder(TreeNode root)

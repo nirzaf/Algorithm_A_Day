@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Multidimensional_Arrays
 {
-    public class Spiral_Matrix_LC_54
+    public class SpiralMatrixLc54
     {
         /// <summary>
         ///         curr.c      last.c  

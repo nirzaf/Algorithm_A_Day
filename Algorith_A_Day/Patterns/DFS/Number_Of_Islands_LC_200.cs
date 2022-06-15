@@ -9,7 +9,7 @@ namespace Algorithm_A_Day.Patterns.DFS
     /// every call we need to 'sink' the island in a way that
     /// we modify the grid changing '1s' into diffriend char f.e '0'
     /// </summary>
-    public class Number_Of_Islands_LC_200
+    public class NumberOfIslandsLc200
     {
         //recursive solution
         public static int NumIslands(char[][] grid)
@@ -24,7 +24,7 @@ namespace Algorithm_A_Day.Patterns.DFS
                     if (grid[i][j] == '1')
                     {
                         result++;
-                        DFS(grid, i, j);
+                        Dfs(grid, i, j);
                     }
                 }
             }
@@ -33,7 +33,7 @@ namespace Algorithm_A_Day.Patterns.DFS
             return result;
         }
 
-        private static void DFS(char[][] grid, int i, int j)
+        private static void Dfs(char[][] grid, int i, int j)
         {
             if( i < 0 || i >= grid.Length ||
                 j < 0 || j >= grid[i].Length ||
@@ -44,10 +44,10 @@ namespace Algorithm_A_Day.Patterns.DFS
 
             grid[i][j] = '0';
 
-            DFS(grid, i, j + 1);
-            DFS(grid, i, j - 1);
-            DFS(grid, i + 1, j);
-            DFS(grid, i - 1, j);
+            Dfs(grid, i, j + 1);
+            Dfs(grid, i, j - 1);
+            Dfs(grid, i + 1, j);
+            Dfs(grid, i - 1, j);
         }
         //iterative solution
 
@@ -95,7 +95,7 @@ namespace Algorithm_A_Day.Patterns.DFS
             return result;
         }
         // BFS solution
-        public static int NumIslandsBFS(char[][] grid)
+        public static int NumIslandsBfs(char[][] grid)
         {
             int result = 0;
             var toVisit = new Queue<int[]>();

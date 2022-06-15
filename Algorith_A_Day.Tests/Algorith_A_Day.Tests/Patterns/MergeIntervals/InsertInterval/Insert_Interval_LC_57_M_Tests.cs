@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.Patterns.MergeIntervals.InsertInterval
 {
-    public class Insert_Interval_LC_57_M_Tests
+    public class InsertIntervalLc57MTests
     {
-        private readonly Insert_Interval_LC_57_M _sut;
-        public Insert_Interval_LC_57_M_Tests()
+        private readonly InsertIntervalLc57M _sut;
+        public InsertIntervalLc57MTests()
         {
-            _sut = new Insert_Interval_LC_57_M();
+            _sut = new InsertIntervalLc57M();
         }
 
 

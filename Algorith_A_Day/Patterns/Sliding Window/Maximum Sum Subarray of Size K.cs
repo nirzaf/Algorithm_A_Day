@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Maximum_Sum_Subarray_of_Size_K
+    public class MaximumSumSubarrayOfSizeK
     {
         /// <summary>
         /// Goal Given an array of positive numbers and a positive number ‘k’,
@@ -11,7 +11,7 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
         /// Output: 9
         /// Explanation: Subarray with maximum sum is [5, 1, 3].
         /// </summary>
-        public static int findMaxSumSubArray(int k, int[] arr)
+        public static int FindMaxSumSubArray(int k, int[] arr)
         {
             int result = 0;
             int currentSum = 0;

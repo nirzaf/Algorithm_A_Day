@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Arrays
 {
-    public class Running_Sum_of1d_Array_LC_1480_E
+    public class RunningSumOf1dArrayLc1480E
     {
         public int[] RunningSum(int[] nums)
         {

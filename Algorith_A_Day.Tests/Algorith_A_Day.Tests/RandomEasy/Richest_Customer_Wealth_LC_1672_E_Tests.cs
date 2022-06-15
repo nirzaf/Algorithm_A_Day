@@ -5,12 +5,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Richest_Customer_Wealth_LC_1672_E_Tests
+    public class RichestCustomerWealthLc1672ETests
     {
-        private readonly Richest_Customer_Wealth_LC_1672_E _sut;
-        public Richest_Customer_Wealth_LC_1672_E_Tests()
+        private readonly RichestCustomerWealthLc1672E _sut;
+        public RichestCustomerWealthLc1672ETests()
         {
-            _sut = new Richest_Customer_Wealth_LC_1672_E();
+            _sut = new RichestCustomerWealthLc1672E();
         }
 
 

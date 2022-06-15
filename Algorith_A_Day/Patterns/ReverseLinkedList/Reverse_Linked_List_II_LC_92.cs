@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.ReverseLinkedList
 {
-    public class Reverse_Linked_List_II_LC_92
+    public class ReverseLinkedListIiLc92
     {
         public static ListNode ReverseBetween(ListNode head, int m, int n)
         {

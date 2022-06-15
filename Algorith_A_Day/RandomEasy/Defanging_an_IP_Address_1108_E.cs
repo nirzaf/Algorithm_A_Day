@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    class Defanging_an_IP_Address_1108_E
+    class DefangingAnIpAddress1108E
     {
         // extra space
         public string DefangIPaddr(string address)

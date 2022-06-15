@@ -7,7 +7,7 @@
     /// Worst Case Time Complexity [ Big-O ]: O(n2)
     /// https://www.interviewbit.com/tutorial/insertion-sort-algorithm/
     /// </summary>
-    public class Insertion_sort
+    public class InsertionSort
     {
         public static int[] InsertionSortPlain(int[] arr)
         {

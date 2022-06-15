@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.FastAndSlowPointers
 {
-    public class Middle_of_Linked_List_LC_876
+    public class MiddleOfLinkedListLc876
     {
         public ListNode MiddleNode(ListNode head)
         {

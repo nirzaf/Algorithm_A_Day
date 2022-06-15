@@ -2,7 +2,7 @@
 {
 
     // check if number is an int https://stackoverflow.com/questions/2751593/how-to-determine-if-a-decimal-double-is-an-integer
-    public class Number_of_Steps_to_Zero_LC_1342_E
+    public class NumberOfStepsToZeroLc1342E
     {
         public int NumberOfSteps(int num)
         {

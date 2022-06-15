@@ -3,13 +3,13 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Majority_Element_LC_169_E_Tests
+    public class MajorityElementLc169ETests
     {
-        private readonly Majority_Element_LC_169_E _sut;
+        private readonly MajorityElementLc169E _sut;
 
-        public Majority_Element_LC_169_E_Tests()
+        public MajorityElementLc169ETests()
         {
-            _sut = new Majority_Element_LC_169_E();
+            _sut = new MajorityElementLc169E();
         }
 
         [Theory]

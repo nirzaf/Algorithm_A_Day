@@ -3,7 +3,7 @@
 namespace Algorithm_A_Day.DP
 {
     // dp CAN be used to solve this problem but it is not necessary
-    public class Climbing_Stairs_LC_70_E_DP
+    public class ClimbingStairsLc70EDp
 
     {
         /// <summary>

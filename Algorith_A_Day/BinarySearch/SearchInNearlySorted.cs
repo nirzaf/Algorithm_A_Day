@@ -8,7 +8,7 @@
     /// </summary>
     public class SearchInNearlySorted 
     {
-        public static int GetFromNS(int[] arr, int target)
+        public static int GetFromNs(int[] arr, int target)
         {
             int left = 0;
             int right = arr.Length - 1;

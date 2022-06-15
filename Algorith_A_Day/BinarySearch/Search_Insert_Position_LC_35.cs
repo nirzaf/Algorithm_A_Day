@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.BinarySearch
 {
-    public class Search_Insert_Position_LC_35
+    public class SearchInsertPositionLc35
     {
         /// <summary>
         /// if the result is not found, then position will alway lie at start index,

@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.String_operations
 {
-    public class Implement_strStr_LC_28
+    public class ImplementStrStrLc28
     {
         // brute force
         public static int StrStr(string haystack, string needle)

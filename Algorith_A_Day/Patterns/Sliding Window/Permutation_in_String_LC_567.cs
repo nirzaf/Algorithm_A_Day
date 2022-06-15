@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Permutation_in_String_LC_567
+    public class PermutationInStringLc567
     {
         //slow my solution
         public static bool CheckInclusion(string s1, string s2)
@@ -76,13 +76,13 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
         /// <returns></returns>
         public static bool CheckInclusion2(string s1, string s2)
         {
-            int[] s1Frequency = getFrequency(s1);
+            int[] s1Frequency = GetFrequency(s1);
             //int[] s2Frequency = getFrequency(s2);
 
             bool result = false;
             if (s1.Length <= s2.Length)
             {
-                result = check(s2, s1Frequency, s1.Length);
+                result = Check(s2, s1Frequency, s1.Length);
             }
 
             return result;
@@ -90,7 +90,7 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
 
         // it is ascii a = 97  b = 98 c = 99 d = 100 
         // so if we substract a we get array where index 0 = a, 1 = b 2 = 3
-        private static int[] getFrequency(string s)
+        private static int[] GetFrequency(string s)
         {
             int[] frequency = new int[26];
             for (int i = 0; i < s.Length; i++)
@@ -102,7 +102,7 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
             return frequency;
         }
 
-        private static bool compare(int[] frequency1, int[] frequency2)
+        private static bool Compare(int[] frequency1, int[] frequency2)
         {
             for (int i = 0; i < 26; i++)
             {
@@ -115,14 +115,14 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
             return true;
         }
 
-        private static bool check(string s, int[] s2Frequency, int length)
+        private static bool Check(string s, int[] s2Frequency, int length)
         {
             int[] frequency = new int[26];
             for (int i = 0; i < s.Length; i++)
             {
                 frequency[s[i] - 'a']++;
 
-                if (compare(frequency, s2Frequency))
+                if (Compare(frequency, s2Frequency))
                 {
                     return true;
                 }

@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Roman_to_Integer_LC_13
+    public class RomanToIntegerLc13
     {
         /// <summary>
         /// we have to check if it not the last char i < s.Length - 1

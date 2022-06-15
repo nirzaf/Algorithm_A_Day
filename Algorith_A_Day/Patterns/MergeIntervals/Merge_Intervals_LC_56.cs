@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.MergeIntervals
 {
-    public class Merge_Intervals_LC_56
+    public class MergeIntervalsLc56
     {
         // it shows mutability of list in c#
 

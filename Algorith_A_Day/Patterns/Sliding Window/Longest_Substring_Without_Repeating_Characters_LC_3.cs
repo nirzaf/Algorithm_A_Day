@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Longest_Substring_Without_Repeating_Characters_LC_3
+    public class LongestSubstringWithoutRepeatingCharactersLc3
     {
         public int LengthOfLongestSubstring(string s)
         {

@@ -1,22 +1,22 @@
 ﻿namespace Algorithm_A_Day.Recursion
 {
-    public class Reverse_String_LC_344_E
+    public class ReverseStringLc344E
     {
         // recursive
         public static void ReverseString(char[] s)
         {
             if (s == null || s.Length == 0) return;
 
-            helper(s, 0, s.Length - 1);
+            Helper(s, 0, s.Length - 1);
         }
 
-        private static void helper(char[] s, int start, int end)
+        private static void Helper(char[] s, int start, int end)
         {
             if (start > end) return;
             var temp = s[start];
             s[start] = s[end];
             s[end] = temp;
-            helper(s, start + 1, end - 1);
+            Helper(s, start + 1, end - 1);
         }
 
         // same but interatively

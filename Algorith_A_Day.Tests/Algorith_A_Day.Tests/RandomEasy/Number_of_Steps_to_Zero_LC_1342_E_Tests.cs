@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Number_of_Steps_to_Zero_LC_1342_E_Tests
+    public class NumberOfStepsToZeroLc1342ETests
     {
-        private readonly Number_of_Steps_to_Zero_LC_1342_E _sut;
-        public Number_of_Steps_to_Zero_LC_1342_E_Tests()
+        private readonly NumberOfStepsToZeroLc1342E _sut;
+        public NumberOfStepsToZeroLc1342ETests()
         {
-            _sut = new Number_of_Steps_to_Zero_LC_1342_E();
+            _sut = new NumberOfStepsToZeroLc1342E();
         }
 
         [Theory]

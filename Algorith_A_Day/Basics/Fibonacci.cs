@@ -59,20 +59,20 @@ namespace Algorithm_A_Day.Basics
                 b = temp;
             }
         }
-        private static Dictionary<int, int> map = new() { [0] = 0, [1] = 1 };
+        private static Dictionary<int, int> _map = new() { [0] = 0, [1] = 1 };
 
-        public static int FibDPMemoization(int n)
+        public static int FibDpMemoization(int n)
         {
-            if (map.ContainsKey(n))
+            if (_map.ContainsKey(n))
             {
-                return map[n];
+                return _map[n];
             }
 
-            map[n] = FibDPMemoization(n - 1) + FibDPMemoization(n - 2);
+            _map[n] = FibDpMemoization(n - 1) + FibDpMemoization(n - 2);
             //it must be return because otherwise that calls have no value
-            return map[n];
+            return _map[n];
         }
-        public static int FibDPTabulation(int n)
+        public static int FibDpTabulation(int n)
         {
             if (n == 0) return n;
             int[] result = new int[n];

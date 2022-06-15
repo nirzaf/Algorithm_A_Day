@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.MathRelated
 {
-    public class Count_Primes_LC_204
+    public class CountPrimesLc204
     {
 
         /// <summary>

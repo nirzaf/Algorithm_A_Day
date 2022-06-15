@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Build_Array_from_Permutation_LC_1920_E
+    public class BuildArrayFromPermutationLc1920E
     {
         public int[] BuildArray(int[] nums)
         {

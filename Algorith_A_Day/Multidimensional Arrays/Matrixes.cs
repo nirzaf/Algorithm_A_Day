@@ -5,27 +5,27 @@ namespace BST.Matrix
 {
     static class Matrixes
     {
-        const int size3 = 3;
+        const int Size3 = 3;
 
-        static int[,] A = new int[size3, size3];
+        static int[,] _a = new int[Size3, Size3];
 
-        static int[,] B = new int[size3, size3];
+        static int[,] _b = new int[Size3, Size3];
 
-        static int[] a = new int[size3];
+        static int[] _a = new int[Size3];
 
-        static Random random = new Random();
+        static Random _random = new Random();
 
         //populate matrixes and vector with random numbers
         public static void PopulateMatrixesAndVectorRandomNumbers()
         {
-            for (int i = 0; i < size3; i++)
+            for (int i = 0; i < Size3; i++)
             {
-                for (int j = 0; j < size3; j++)
+                for (int j = 0; j < Size3; j++)
                 {
-                    A[i, j] = random.Next(1, 10);
-                    B[i, j] = random.Next(1, 10);
+                    _a[i, j] = _random.Next(1, 10);
+                    _b[i, j] = _random.Next(1, 10);
                 }
-                a[i] = random.Next(1, 10);
+                a[i] = _random.Next(1, 10);
             }
         }
 

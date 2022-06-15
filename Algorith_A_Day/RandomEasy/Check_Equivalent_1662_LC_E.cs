@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Check_Equivalent_1662_LC_E
+    public class CheckEquivalent1662LcE
     {
         // simple brute force O(n)
         public bool ArrayStringsAreEqual(string[] word1, string[] word2)

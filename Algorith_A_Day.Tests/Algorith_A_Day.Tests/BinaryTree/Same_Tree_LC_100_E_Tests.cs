@@ -6,13 +6,13 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.BinaryTree
 {
-    public class Same_Tree_LC_100_E_Tests
+    public class SameTreeLc100ETests
     {
-        private readonly Same_Tree_LC_100_E _sut;
+        private readonly SameTreeLc100E _sut;
 
-        public Same_Tree_LC_100_E_Tests()
+        public SameTreeLc100ETests()
         {
-            _sut = new Same_Tree_LC_100_E();
+            _sut = new SameTreeLc100E();
         }
 
         [Theory]

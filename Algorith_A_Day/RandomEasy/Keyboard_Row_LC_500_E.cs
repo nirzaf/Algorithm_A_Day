@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Keyboard_Row_LC_500_E
+    public class KeyboardRowLc500E
     {
         public static string[] FindWords(string[] words)
         {

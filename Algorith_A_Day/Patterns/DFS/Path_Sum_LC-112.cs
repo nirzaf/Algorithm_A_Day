@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.DFS
 {
-    public class Path_Sum_LC_112
+    public class PathSumLc112
     {
         public bool HasPathSum(TreeNode root, int sum)
         {

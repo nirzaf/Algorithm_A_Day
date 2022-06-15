@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Goal_Parser_Interpretation_LC_1678_E
+    public class GoalParserInterpretationLc1678E
     {
         public string Interpret(string command)
         {
@@ -53,7 +53,7 @@ namespace Algorithm_A_Day.RandomEasy
                     result = result + "o";
                     currentString = String.Empty;
                 }
-                else if (IsAL(currentString))
+                else if (IsAl(currentString))
                 {
                     result = result + "al";
                     currentString = String.Empty;
@@ -71,7 +71,7 @@ namespace Algorithm_A_Day.RandomEasy
             return (value == "()");
         }
 
-        private bool IsAL(string value)
+        private bool IsAl(string value)
         {
             return (value == "(al)");
         }

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.MergeIntervals.InsertInterval
 {
-    public class Insert_Interval_LC_57_M
+    public class InsertIntervalLc57M
     {
         public int[][] Insert(int[][] intervals, int[] newInterval)
         {

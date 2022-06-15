@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Arrays
 {
-    public class Shuffle_the_Array_LC_1470_E
+    public class ShuffleTheArrayLc1470E
     {
         public static int[] Shuffle(int[] nums, int n)
         {

@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Backtracking
 {
-    public class Letter_Combinations_of_P_Number_LC_17_M
+    public class LetterCombinationsOfPNumberLc17M
     {
 
         /// <summary>

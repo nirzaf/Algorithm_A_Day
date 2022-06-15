@@ -11,7 +11,7 @@ namespace Algorithm_A_Day.Recursion
     /// then we change temp for second pair of nodes (temp alwasy point for the next of second node in a pair)
 
     /// </summary>
-    public class Swap_Nodes_in_Pairs_LC_24_M
+    public class SwapNodesInPairsLc24M
     {
         //recursive
         // todo: nicely shows recursion

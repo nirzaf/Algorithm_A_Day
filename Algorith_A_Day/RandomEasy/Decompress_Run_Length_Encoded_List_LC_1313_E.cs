@@ -2,9 +2,9 @@
 
 namespace Algorith_A_Day.RandomEasy
 {
-    public class Decompress_Run_Length_Encoded_List_LC_1313_E
+    public class DecompressRunLengthEncodedListLc1313E
     {
-        public int[] DecompressRLElist(int[] nums)
+        public int[] DecompressRlElist(int[] nums)
         {
             if (nums == null || nums.Length == 0 || nums.Length % 2 != 0) return new int[] { };
 

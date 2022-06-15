@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.String_operations.Pramp
 {
-    public class Longest_Common_Prefix_LC_14
+    public class LongestCommonPrefixLc14
     {
         // O(n^2)
         public static string LongestCommonPrefix(string[] strs)

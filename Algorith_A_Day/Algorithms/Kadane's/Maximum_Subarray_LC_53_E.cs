@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Algorithms.Kadane_s
 {
-    class Maximum_Subarray_LC_53_E
+    class MaximumSubArrayLc53E
     {
         public static int MaxSubArray(int[] nums)
         {

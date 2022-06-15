@@ -8,7 +8,7 @@ namespace Algorithm_A_Day.Multidimensional_Arrays
     /// <summary>
     /// good explanation: https://www.youtube.com/watch?v=FOa55B9Ikfg
     /// </summary>
-    public class Kth_Smallest_Element_in__Sorted_Matrix_LC_378_M
+    public class KthSmallestElementInSortedMatrixLc378M
     {
         //brute force
         public int KthSmallest1(int[][] matrix, int k)

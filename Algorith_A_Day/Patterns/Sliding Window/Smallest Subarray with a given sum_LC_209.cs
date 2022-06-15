@@ -20,10 +20,10 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
     /// we DONT exit loop; min is (3, 3-2+1) = 1, substract 10 so sum is 0 
     /// next we do the same with last 2 elements but they are summing up to s
     /// </summary>
-    public class Smallest_Subarray_with_a_given_sum_LC_209
+    public class SmallestSubarrayWithAGivenSumLc209
     {
         //TC O(N+N) which is asymptotically equivalent to O(N)
-        public static int FindMinSubArray(int S, int[] arr)
+        public static int FindMinSubArray(int s, int[] arr)
         {
             int windowSum = 0, minLength = int.MaxValue;
             int windowStart = 0;
@@ -32,7 +32,7 @@ namespace Algorithm_A_Day.Patterns.Sliding_Window
                 windowSum += arr[windowEnd]; // add the next element
                
                 // shrink the window as small as possible until the 'windowSum' is smaller than 'S'
-                while (windowSum >= S)
+                while (windowSum >= s)
                 {
                     minLength = Math.Min(minLength, windowEnd - windowStart + 1);
                     windowSum -= arr[windowStart]; // subtract the element going out

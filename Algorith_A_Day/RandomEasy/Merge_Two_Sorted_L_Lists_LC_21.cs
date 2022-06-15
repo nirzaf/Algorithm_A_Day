@@ -3,7 +3,7 @@ using System;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Merge_Two_Sorted_L_Lists_LC_21
+    public class MergeTwoSortedLListsLc21
     {
 
         /// <summary>

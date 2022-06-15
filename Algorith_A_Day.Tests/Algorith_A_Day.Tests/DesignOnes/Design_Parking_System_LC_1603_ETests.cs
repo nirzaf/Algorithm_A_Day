@@ -4,13 +4,13 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.DesignOnes
 {
-    public class Design_Parking_System_LC_1603_ETests
+    public class DesignParkingSystemLc1603ETests
     {
-        private Design_Parking_System_LC_1603_E _sut;
+        private DesignParkingSystemLc1603E _sut;
 
-        public Design_Parking_System_LC_1603_ETests()
+        public DesignParkingSystemLc1603ETests()
         {
-            _sut = new Design_Parking_System_LC_1603_E(1, 1, 0);
+            _sut = new DesignParkingSystemLc1603E(1, 1, 0);
         }
 
         [Fact]
@@ -30,32 +30,32 @@ namespace Algorith_A_Day.Tests.DesignOnes
         public void AddCar_ReturnsTrue_WhenAllCarHaveRoom()
         {
             //Arrange
-            _sut = new Design_Parking_System_LC_1603_E(1, 1, 1);
+            _sut = new DesignParkingSystemLc1603E(1, 1, 1);
             
             //Act
-            var actual_small = _sut.AddCar(1);
-            var actual_medium = _sut.AddCar(2);
-            var actual_big = _sut.AddCar(3);
+            var actualSmall = _sut.AddCar(1);
+            var actualMedium = _sut.AddCar(2);
+            var actualBig = _sut.AddCar(3);
             //Assert
-            Assert.True(actual_small);
-            Assert.True(actual_medium);
-            Assert.True(actual_big);
+            Assert.True(actualSmall);
+            Assert.True(actualMedium);
+            Assert.True(actualBig);
         }
         
         [Fact]
         public void AddCar_ReturnsTrue_WhenNoRoomForCarsAtBeginning()
         {
             //Arrange
-            _sut = new Design_Parking_System_LC_1603_E(0, 0, 0);
+            _sut = new DesignParkingSystemLc1603E(0, 0, 0);
             
             //Act
-            var actual_small = _sut.AddCar(1);
-            var actual_medium = _sut.AddCar(2);
-            var actual_big = _sut.AddCar(3);
+            var actualSmall = _sut.AddCar(1);
+            var actualMedium = _sut.AddCar(2);
+            var actualBig = _sut.AddCar(3);
             //Assert
-            Assert.False(actual_small);
-            Assert.False(actual_medium);
-            Assert.False(actual_big);
+            Assert.False(actualSmall);
+            Assert.False(actualMedium);
+            Assert.False(actualBig);
         }
     }
 }

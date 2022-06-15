@@ -8,7 +8,7 @@ namespace Algorithm_A_Day.Patterns._2Pointers
     /// we do 2Sum for each number in array 
     /// to avoid duplicates we move pointers if the numbers in array are the same  
     /// </summary>
-    public class _Sum_LC_15
+    public class SumLc15
     {
         public static IList<IList<int>> ThreeSum(int[] nums)
         {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Fruit_Into_Baskets_LC_904
+    public class FruitIntoBasketsLc904
     {
         public static int TotalFruit(int[] tree)
         {

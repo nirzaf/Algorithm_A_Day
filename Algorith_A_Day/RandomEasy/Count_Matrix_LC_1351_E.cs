@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Count_Matrix_LC_1351_E
+    public class CountMatrixLc1351E
     {
         public int CountNegatives(int[][] grid)
         {

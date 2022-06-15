@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Subtract_Integer_1281_LC_E
+    public class SubtractInteger1281LcE
     {
         public int SubtractProductAndSum(int n)
         {

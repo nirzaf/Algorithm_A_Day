@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.Subsets
 {
-    public class Subsets_LC_78
+    public class SubsetsLc78
     {
         /// <summary>
         /// var subset = result[i] copies the references so its the same object 
@@ -58,21 +58,21 @@ namespace Algorithm_A_Day.Patterns.Subsets
         {
             IList<IList<int>> result = new List<IList<int>>();
             List<int> currentList = new List<int>();
-            helper(nums, result, currentList, 0);
+            Helper(nums, result, currentList, 0);
             return result;
         }
         /// <summary>
         /// here BASE CASE is for loop condition
         /// </summary>
 
-        private static void helper(int[] nums, IList<IList<int>> result,
+        private static void Helper(int[] nums, IList<IList<int>> result,
                                     List<int> currentList, int start)
         {
             result.Add(currentList.ToList());
             for (int i = start; i < nums.Length; i++)
             {
                 currentList.Add(nums[i]);
-                helper(nums, result, currentList, i + 1);
+                Helper(nums, result, currentList, i + 1);
                 currentList.RemoveAt(currentList.Count - 1);
             }
         }

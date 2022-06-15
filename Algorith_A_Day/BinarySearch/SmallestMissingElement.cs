@@ -10,7 +10,7 @@
     public class SmallestMissingElement
     {
         //recursively
-        public int SmallestMissingEL(int[] arr, int left, int right)
+        public int SmallestMissingEl(int[] arr, int left, int right)
         {
             //base condition
             if (left > right) return left;
@@ -19,16 +19,16 @@
             //and there is no missing elements, SME must be on the right
             if(arr[mid] == mid)
             {
-                return SmallestMissingEL(arr, mid + 1, right);
+                return SmallestMissingEl(arr, mid + 1, right);
             }
             else //SME must be on left
             {
-                return SmallestMissingEL(arr, left, mid - 1); 
+                return SmallestMissingEl(arr, left, mid - 1); 
             }
         }
 
         //iteratively
-        public int SmallestMissingELIter(int[] arr)
+        public int SmallestMissingElIter(int[] arr)
         {
             int left = 0;
             int right = arr.Length - 1;

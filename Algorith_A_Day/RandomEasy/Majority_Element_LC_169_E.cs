@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Majority_Element_LC_169_E
+    public class MajorityElementLc169E
     {
         public int MajorityElement(int[] nums)
         {

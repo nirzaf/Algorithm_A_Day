@@ -10,7 +10,7 @@ namespace Algorithm_A_Day.Patterns.FastAndSlowPointers
     /// https://www.youtube.com/watch?v=LUm2ABqAs1w
     /// https://leetcode.com/problems/linked-list-cycle/discuss/710326/C-Floyd's-cycle-detection-(slow-fast-pointer)
     /// </summary>
-    public class Link_List_Cycle_LC_141
+    public class LinkListCycleLc141
     {
         public static ListNode HasCycle(ListNode head)
         {

@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Sliding_Window
+    public class SlidingWindow
     {
         /// <summary>
         /// Goal: Find the average of all contiguous subarrays of size ‘K’ in it.
@@ -11,28 +11,28 @@
         /// </summary>
 
         // TC - O(N*K) where N is number in arr
-        public static double[] GetAverageSubArraysSizeKNaive(int K, int[] arr)
+        public static double[] GetAverageSubArraysSizeKNaive(int k, int[] arr)
         {
-            var result = new double[arr.Length - K + 1];
+            var result = new double[arr.Length - k + 1];
 
             //less or equal because it has to take el at index 4 so 5th el (len -K)
-            for (int i = 0; i <= arr.Length - K; i++)
+            for (int i = 0; i <= arr.Length - k; i++)
             {
                 double currentSum = 0;
-                for (int j = i; j < i + K ; j++)
+                for (int j = i; j < i + k ; j++)
                 {
                     currentSum += arr[j];
                 }
-                result[i] =  currentSum / K;
+                result[i] =  currentSum / k;
             }
             return result;
         }
 
         //here we get the sum of K elements and then substract from sum first element and add the next one (from loop index)
         // TC - O(N)
-        public static double[] GetAverageSubArraysSizeK(int K, int[] arr)
+        public static double[] GetAverageSubArraysSizeK(int k, int[] arr)
         {
-            var result = new double[arr.Length - K + 1];
+            var result = new double[arr.Length - k + 1];
             double currentSum = 0.0;
             int windowStart = 0;
 
@@ -40,9 +40,9 @@
             {
                 currentSum += arr[windowEnd];
 
-                if(windowEnd >=K - 1)
+                if(windowEnd >=k - 1)
                 {
-                    result[windowStart] = currentSum / K;
+                    result[windowStart] = currentSum / k;
                     currentSum -= arr[windowStart];
                     windowStart++;
                 }

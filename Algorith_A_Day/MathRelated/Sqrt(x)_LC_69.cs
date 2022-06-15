@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.MathRelated
 {
-    public class Sqrt_x__LC_69
+    public class SqrtXLc69
     {
         //timelimit exceeded for some reason
         public static int MySqrt(int x)

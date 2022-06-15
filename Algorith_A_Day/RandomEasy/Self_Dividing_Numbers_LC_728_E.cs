@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-	public class Self_Dividing_Numbers_LC_728_E
+	public class SelfDividingNumbersLc728E
 	{
 		public static IList<int> SelfDividingNumbers(int left, int right)
 		{

@@ -5,7 +5,7 @@ namespace Algorithm_A_Day.BitManipulation
 {
 
     // todo: bit manipulation to understand, looks quite easy
-    public class Binary_Watch_401
+    public class BinaryWatch401
     {
         public IList<string> ReadBinaryWatch(int num)
         {
@@ -15,7 +15,7 @@ namespace Algorithm_A_Day.BitManipulation
             {
                 for (int minute = 0; minute < 60; minute++)
                 {
-                    if (countBits(hour) + countBits(minute) == num)
+                    if (CountBits(hour) + CountBits(minute) == num)
                     {
                         result.Add($"{hour}:{minute:D2}");
                     }
@@ -26,7 +26,7 @@ namespace Algorithm_A_Day.BitManipulation
         }
 
 
-        private int countBits(int num)
+        private int CountBits(int num)
         {
             int count = 0;
             for (int i = 0; i < 32; i++)
@@ -42,37 +42,37 @@ namespace Algorithm_A_Day.BitManipulation
 
         // todo: backtracking solution
          public IList<string> ReadBinaryWatch2(int num) {
-        List<string> Result = new List<string> ();
+        List<string> result = new List<string> ();
         if (num == 0) {
-            Result.Add ("0:00");
-            return Result;
+            result.Add ("0:00");
+            return result;
         }
-        HashSet<string> BinaryNumbers = new HashSet<string> (new string[] { "01", "02", "04", "08", "16", "32", "1", "2", "4", "8" });
-        HashSet<string> Chosen = new HashSet<string> ();
-        ReadBinaryWatchHelper (BinaryNumbers, Chosen, Result, num);
-        return Result;
+        HashSet<string> binaryNumbers = new HashSet<string> (new string[] { "01", "02", "04", "08", "16", "32", "1", "2", "4", "8" });
+        HashSet<string> chosen = new HashSet<string> ();
+        ReadBinaryWatchHelper (binaryNumbers, chosen, result, num);
+        return result;
 
     }
 
-    private void ReadBinaryWatchHelper (HashSet<string> RemainingNumbers, HashSet<string> Chosen, List<string> Result, int num) {
+    private void ReadBinaryWatchHelper (HashSet<string> remainingNumbers, HashSet<string> chosen, List<string> result, int num) {
 
-        if (Chosen.Count == num) {
-            string time = GetFormattedTime (Chosen);
-            AddToResult (ref Result, time);
-        } else if (RemainingNumbers.Count == 0) {
+        if (chosen.Count == num) {
+            string time = GetFormattedTime (chosen);
+            AddToResult (ref result, time);
+        } else if (remainingNumbers.Count == 0) {
             return;
         } else {
-            HashSet<string> nextChosen1 = new HashSet<string> (Chosen);
-            HashSet<string> nextChosen2 = new HashSet<string> (Chosen);
-            HashSet<string> nextRemaining = new HashSet<string> (RemainingNumbers);
-            string candidate = RemainingNumbers.First ();
+            HashSet<string> nextChosen1 = new HashSet<string> (chosen);
+            HashSet<string> nextChosen2 = new HashSet<string> (chosen);
+            HashSet<string> nextRemaining = new HashSet<string> (remainingNumbers);
+            string candidate = remainingNumbers.First ();
             // remove candidate from given binary numbers so that each recursive call makes progress towards solution
             nextRemaining.Remove (candidate);
             // add candidate to chosen list & recurse
             nextChosen1.Add (candidate);
-            ReadBinaryWatchHelper (nextRemaining, nextChosen1, Result, num);
+            ReadBinaryWatchHelper (nextRemaining, nextChosen1, result, num);
             // don't add candidate to chosen list & recurse
-            ReadBinaryWatchHelper (nextRemaining, nextChosen2, Result, num);
+            ReadBinaryWatchHelper (nextRemaining, nextChosen2, result, num);
         }
 
     }

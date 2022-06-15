@@ -7,7 +7,7 @@ namespace Algorithm_A_Day.Patterns.BFS
     /// LeetCode 994
     /// TC = O(n) ---> inner loop in nested loop but it iterates 4 times every time , SC = O(n)
     /// </summary>
-    public class Rotting_Oranges
+    public class RottingOranges
     {
         public static int OrangesRotting(int[][] grid)
         {

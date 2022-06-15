@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.CyclicSort
 {
-    public class Find_All_Duplicates_in_Array_442
+    public class FindAllDuplicatesInArray442
     {
         //{4,0,3,1}
         public static IList<int> FindDuplicates(int[] nums)

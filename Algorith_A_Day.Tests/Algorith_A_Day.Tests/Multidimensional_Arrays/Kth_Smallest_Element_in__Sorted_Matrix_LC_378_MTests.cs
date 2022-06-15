@@ -4,13 +4,13 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.Multidimensional_Arrays
 {
-    public class Kth_Smallest_Element_in__Sorted_Matrix_LC_378_MTests
+    public class KthSmallestElementInSortedMatrixLc378MTests
     {
-        private readonly Kth_Smallest_Element_in__Sorted_Matrix_LC_378_M _sut;
+        private readonly KthSmallestElementInSortedMatrixLc378M _sut;
 
-        public Kth_Smallest_Element_in__Sorted_Matrix_LC_378_MTests()
+        public KthSmallestElementInSortedMatrixLc378MTests()
         {
-            _sut = new Kth_Smallest_Element_in__Sorted_Matrix_LC_378_M();
+            _sut = new KthSmallestElementInSortedMatrixLc378M();
         }
 
         [Theory]

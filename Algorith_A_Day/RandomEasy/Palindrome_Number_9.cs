@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Palindrome_Number_9
+    public class PalindromeNumber9
     {
         //with string
         public static bool IsPalindrome(int x)

@@ -8,7 +8,7 @@
     //    T_6 = 2 + 4 + 7 = 13
     //    T_7 = 4 + 7 + 13 = 24
     /// </summary>
-    public class N_th_Tribonacci_Number_1137
+    public class NThTribonacciNumber1137
     {
         // iteratively
         public static int Tribonacci(int n)

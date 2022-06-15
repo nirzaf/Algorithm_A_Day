@@ -4,12 +4,12 @@ using Xunit;
 namespace Algorith_A_Day.Tests.RandomEasy
 {
 
-    public class Sum__Array_1685_LC_M_Tests
+    public class SumArray1685LcMTests
     {
-        private Sum__Array_1685_LC_M _sut;
-        public Sum__Array_1685_LC_M_Tests()
+        private SumArray1685LcM _sut;
+        public SumArray1685LcMTests()
         {
-            _sut = new Sum__Array_1685_LC_M();
+            _sut = new SumArray1685LcM();
         }
 
         [Theory]

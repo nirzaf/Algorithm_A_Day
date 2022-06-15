@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Patterns.CyclicSort
 {
-    public class Missing_Number_LC_268
+    public class MissingNumberLc268
     {
         public static int MissingNumber(int[] nums)
         {

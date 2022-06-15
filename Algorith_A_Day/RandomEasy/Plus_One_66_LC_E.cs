@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Plus_One_66_LC_E
+    public class PlusOne66LcE
     {
         public static int[] PlusOne(int[] digits)
         {

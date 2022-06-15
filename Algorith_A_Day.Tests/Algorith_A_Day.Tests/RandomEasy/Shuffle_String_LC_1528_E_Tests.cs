@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Shuffle_String_LC_1528_E_Tests
+    public class ShuffleStringLc1528ETests
     {
-        private Shuffle_String_LC_1528_E _sut;
-        public Shuffle_String_LC_1528_E_Tests()
+        private ShuffleStringLc1528E _sut;
+        public ShuffleStringLc1528ETests()
         {
-            _sut = new Shuffle_String_LC_1528_E();
+            _sut = new ShuffleStringLc1528E();
         }
 
 

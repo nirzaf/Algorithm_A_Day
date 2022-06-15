@@ -16,7 +16,7 @@ namespace Algorithm_A_Day.Multidimensional_Arrays
     //..XX....
     //O..X....
     /// </summary>
-    public class Ada_King_CodeChef
+    public class AdaKingCodeChef
     {
         public static string[][] GetFilledBoard()
         {

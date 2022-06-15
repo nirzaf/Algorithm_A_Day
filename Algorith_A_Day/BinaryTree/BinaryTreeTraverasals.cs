@@ -116,12 +116,12 @@ namespace BST.Traversals
             }
             return result;
         }
-        static List<int> list;
+        static List<int> _list;
         public static IList<int> InorderTraversalRecursively(TreeNode root)
         {
-            list = new List<int>();
+            _list = new List<int>();
             InOrder(root);
-            return list;
+            return _list;
         }
         public static void InOrder(TreeNode node)
         {
@@ -130,7 +130,7 @@ namespace BST.Traversals
                 return;
             }
             InOrder(node.left);
-            list.Add(node.val);
+            _list.Add(node.val);
             InOrder(node.right);
         }
 
@@ -238,9 +238,9 @@ namespace BST.Traversals
         //RECURSIVELY
         public static IList<int> PostOrderTraversalRec(TreeNode root)
         {
-            list = new List<int>();
+            _list = new List<int>();
             PostOrder(root);
-            return list;
+            return _list;
         }
 
         public static void PostOrder(TreeNode node)
@@ -251,7 +251,7 @@ namespace BST.Traversals
             }
             PostOrder(node.left);
             PostOrder(node.right);
-            list.Add(node.val);
+            _list.Add(node.val);
         }
 
         //================Level ORDER (Breadth-First Search)==================
@@ -350,7 +350,7 @@ namespace BST.Traversals
         //tl(null, list, 2 + 1)  
         //tl(null, list, 2 + 1 )   
         //List{list[1], list[3], list[5],}
-        public static IList<int> xxxx(TreeNode root)
+        public static IList<int> Xxxx(TreeNode root)
         {
             if (root == null)
                 return new List<int>();

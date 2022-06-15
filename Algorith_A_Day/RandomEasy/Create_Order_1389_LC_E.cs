@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Create_Order_1389_LC_E
+    public class CreateOrder1389LcE
     {
         //unfinished wypociny 
         //public static int[] CreateTargetArray(int[] nums, int[] index)
@@ -53,35 +53,35 @@ namespace Algorithm_A_Day.RandomEasy
         public static int[] CreateTargetArray2(int[] nums, int[] index)
         {
 
-            var _target = Enumerable.Repeat(101, nums.Length).ToArray();
+            var target = Enumerable.Repeat(101, nums.Length).ToArray();
 
 
             for (var i = 0; i < nums.Length; i++)
             {
-                var _index = index[i];
+                var index = index[i];
 
                 var val = nums[i];
 
-                if (_target[_index] == 101)
-                    _target[_index] = val;
+                if (target[index] == 101)
+                    target[index] = val;
                 else
                 {
-                    var _tmp = _target[_index];
+                    var tmp = target[index];
 
-                    _target[_index] = val;
+                    target[index] = val;
 
                     //TODO: (understand) write after some time
-                    for (int start = _index + 1; start < _target.Length; start++)
+                    for (int start = index + 1; start < target.Length; start++)
                     {
-                        var _t2 = _target[start];
+                        var t2 = target[start];
 
-                        _target[start] = _tmp;
+                        target[start] = tmp;
 
-                        _tmp = _t2;
+                        tmp = t2;
                     }
                 }
             }
-            return _target;
+            return target;
 
         }
 

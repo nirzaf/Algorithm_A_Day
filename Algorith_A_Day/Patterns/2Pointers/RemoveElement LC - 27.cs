@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Patterns._2Pointers
 {
-    public class RemoveElement_LC___27
+    public class RemoveElementLc27
     {
         public static int RemoveElement(int[] nums, int val)
         {

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Arrays
 {
-    public class Find_Numbers_with_Even_Number_of_Digits_1295
+    public class FindNumbersWithEvenNumberOfDigits1295
     {
         public static int FindNumbers(int[] nums)
         {

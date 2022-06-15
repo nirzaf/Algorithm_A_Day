@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Fizz_Buzz_LC_412_E
+    public class FizzBuzzLc412E
     {
         public IList<string> FizzBuzz(int n)
         {

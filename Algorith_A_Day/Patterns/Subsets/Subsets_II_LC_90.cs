@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.Subsets
 {
-    public class Subsets_II_LC_90
+    public class SubsetsIiLc90
     {
         /// <summary>
         /// Diffrence between this and withoug duplicate is:
@@ -47,11 +47,11 @@ namespace Algorithm_A_Day.Patterns.Subsets
             Array.Sort(nums);
             IList<IList<int>> result = new List<IList<int>>();
             List<int> currentList = new List<int>();
-            helper(nums, result, currentList, 0);
+            Helper(nums, result, currentList, 0);
             return result;
         }
 
-        private static void helper(int[] nums, IList<IList<int>> result, List<int> currentList, int start)
+        private static void Helper(int[] nums, IList<IList<int>> result, List<int> currentList, int start)
         {
             result.Add(currentList.ToList());
             for (int i = start; i < nums.Length; i++)
@@ -59,7 +59,7 @@ namespace Algorithm_A_Day.Patterns.Subsets
                 if (i == start || nums[i] != nums[i - 1])
                 {
                     currentList.Add(nums[i]);
-                    helper(nums, result, currentList, i + 1);
+                    Helper(nums, result, currentList, i + 1);
                     currentList.RemoveAt(currentList.Count - 1);
                 }
             }

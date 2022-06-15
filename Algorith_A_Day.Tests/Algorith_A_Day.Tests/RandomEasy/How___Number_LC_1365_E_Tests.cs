@@ -9,12 +9,12 @@ namespace Algorith_A_Day.Tests.RandomEasy
     //Act
 
     //Assert
-    public class How___Number_LC_1365_E_Tests
+    public class HowNumberLc1365ETests
     {
-        private readonly How___Number_LC_1365_E _sut;
-        public How___Number_LC_1365_E_Tests()
+        private readonly HowNumberLc1365E _sut;
+        public HowNumberLc1365ETests()
         {
-            _sut = new How___Number_LC_1365_E();
+            _sut = new HowNumberLc1365E();
         }
 
 

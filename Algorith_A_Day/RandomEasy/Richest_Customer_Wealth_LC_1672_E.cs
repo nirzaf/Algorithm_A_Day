@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Richest_Customer_Wealth_LC_1672_E
+    public class RichestCustomerWealthLc1672E
     {
         public int MaximumWealth(int[][] accounts)
         {

@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Arrays
 {
-    public class Merge_Sorted_Array_88
+    public class MergeSortedArray88
     {
         public static void Merge(int[] nums1, int m, int[] nums2, int n)
         {

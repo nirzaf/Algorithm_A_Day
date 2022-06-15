@@ -9,17 +9,17 @@
 
         public Node() { }
 
-        public Node(int _val)
+        public Node(int val)
         {
-            val = _val;
+            this.val = val;
         }
 
-        public Node(int _val, Node _left, Node _right, Node _next = null)
+        public Node(int val, Node left, Node right, Node next = null)
         {
-            val = _val;
-            left = _left;
-            right = _right;
-            next = _next;
+            this.val = val;
+            this.left = left;
+            this.right = right;
+            this.next = next;
         }
     }
 }

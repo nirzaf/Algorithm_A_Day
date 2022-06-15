@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.BinaryTree
 {
-    public class Same_Tree_LC_100_E
+    public class SameTreeLc100E
     {
         //Iterative Queue Approach(DFS)
         //T : O(Min(NodeCount))
@@ -26,38 +26,38 @@ namespace Algorithm_A_Day.BinaryTree
             if (p == null && q == null) return true;
             if (p == null || q == null) return false;
 
-            Stack<TreeNode> P_stack = new Stack<TreeNode>();
-            Stack<TreeNode> Q_stack = new Stack<TreeNode>();
+            Stack<TreeNode> pStack = new Stack<TreeNode>();
+            Stack<TreeNode> qStack = new Stack<TreeNode>();
 
-            P_stack.Push(p);
-            Q_stack.Push(q);
+            pStack.Push(p);
+            qStack.Push(q);
 
-            while (P_stack.Count > 0 || Q_stack.Count > 0)
+            while (pStack.Count > 0 || qStack.Count > 0)
             {
-                if (P_stack.Count != Q_stack.Count)
+                if (pStack.Count != qStack.Count)
                     return false;
 
-                int size = P_stack.Count();
+                int size = pStack.Count();
                 for (int i = 0; i < size; i++)
                 {
-                    TreeNode cur_p = P_stack.Pop();
-                    TreeNode cur_q = Q_stack.Pop();
+                    TreeNode curP = pStack.Pop();
+                    TreeNode curQ = qStack.Pop();
 
-                    if (IsValidSameValNode(cur_p, cur_q) == false)
+                    if (IsValidSameValNode(curP, curQ) == false)
                         return false;
 
-                    if (cur_p != null && cur_q != null)
+                    if (curP != null && curQ != null)
                     {
-                        if (cur_p.left != null || cur_q.left != null)
+                        if (curP.left != null || curQ.left != null)
                         {
-                            P_stack.Push(cur_p.left);
-                            Q_stack.Push(cur_q.left);
+                            pStack.Push(curP.left);
+                            qStack.Push(curQ.left);
                         }
 
-                        if (cur_p.right != null || cur_q.right != null)
+                        if (curP.right != null || curQ.right != null)
                         {
-                            P_stack.Push(cur_p.right);
-                            Q_stack.Push(cur_q.right);
+                            pStack.Push(curP.right);
+                            qStack.Push(curQ.right);
                         }
                     }
                 }

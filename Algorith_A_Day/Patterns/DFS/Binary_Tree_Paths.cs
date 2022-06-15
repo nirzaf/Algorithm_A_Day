@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.DFS
 {
-    public class Binary_Tree_Paths
+    public class BinaryTreePaths
     {
         //iteratively with new property IsVisited
         // TODO important to understand example !
@@ -102,12 +102,12 @@ namespace Algorithm_A_Day.Patterns.DFS
         public static IList<string> BinaryTreePathsRecur(TreeNode root)
         {
             var result = new List<string>();
-            DFS(root, new List<string>(), result);
+            Dfs(root, new List<string>(), result);
             return result;
             
         }
 
-        private static void DFS(TreeNode root, List<string> oneResult, List<string> result)
+        private static void Dfs(TreeNode root, List<string> oneResult, List<string> result)
         {
             if (root == null) return;
 
@@ -118,8 +118,8 @@ namespace Algorithm_A_Day.Patterns.DFS
                 result.Add(string.Join("->", oneResult));
             }else
             {
-                DFS(root.left, oneResult, result);
-                DFS(root.right, oneResult, result);
+                Dfs(root.left, oneResult, result);
+                Dfs(root.right, oneResult, result);
             }
             oneResult.RemoveAt(oneResult.Count - 1);
         }

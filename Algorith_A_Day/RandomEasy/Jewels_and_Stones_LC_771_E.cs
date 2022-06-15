@@ -1,16 +1,16 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Jewels_and_Stones_LC_771_E
+    public class JewelsAndStonesLc771E
     {
-        public int NumJewelsInStones(string J, string S)
+        public int NumJewelsInStones(string j, string s)
         {
-            if (J.Length == 0 || S.Length == 0) return 0;
+            if (j.Length == 0 || s.Length == 0) return 0;
 
             int result = 0;
 
-            foreach (char j in J)
+            foreach (char j in j)
             {
-                foreach (char s in S)
+                foreach (char s in s)
                 {
                     if (j == s) result++;
                 }

@@ -14,7 +14,7 @@ namespace Algorithm_A_Day.Arrays.Arrays.Pramp
     ///output: []
     /// 
     /// </summary>
-    class Pairs_with_Specific_Difference___pramp
+    class PairsWithSpecificDifferencePramp
     {
         //arr = [0, -1, -2, 2, 1]
         //brute force with tuples
@@ -184,19 +184,19 @@ namespace Algorithm_A_Day.Arrays.Arrays.Pramp
 
 
         //brute force
-        public static int[,] BindingFlags(int K, int[] arr)
+        public static int[,] BindingFlags(int k, int[] arr)
         {
             var tempList = new List<int[]>();
             for (int i = 0; i < arr.Length - 1; i++)
             {
                 for (int j = i + 1; j < arr.Length; j++)
                 {
-                    if (arr[i] - arr[j] == K)
+                    if (arr[i] - arr[j] == k)
                     {
                         tempList.Add(new[] { arr[i], arr[j] });
 
                     }
-                    else if (arr[j] - arr[i] == K)
+                    else if (arr[j] - arr[i] == k)
                     {
                         tempList.Add(new[] { arr[j], arr[i] });
                     }

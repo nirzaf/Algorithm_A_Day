@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Unique_Email_Addresses_LC_929_E
+    public class UniqueEmailAddressesLc929E
     {
         public static int NumUniqueEmails(string[] emails)
         {

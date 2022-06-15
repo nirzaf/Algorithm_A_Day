@@ -7,7 +7,7 @@ namespace Algorithm_A_Day.Arrays.LeetCode
     /// We need to fist find max index of arr then swap it with the begining of arr and swap again with current index
     /// we iterate from the end not start
     /// </summary>
-    public class Pancake_Sorting_LC_969
+    public class PancakeSortingLc969
     {
         /// <summary>
         /// TODO: bug in 1st one for sorted array
@@ -48,7 +48,7 @@ namespace Algorithm_A_Day.Arrays.LeetCode
             }
         }
 
-        public static IList<int> PancakeSort2(int[] A)
+        public static IList<int> PancakeSort2(int[] a)
         {
 
             //
@@ -58,17 +58,17 @@ namespace Algorithm_A_Day.Arrays.LeetCode
             //The reverse it so that the max is at the end.
             //Add to List the Index of the Max Element.
 
-            int largest = A.Length;
+            int largest = a.Length;
             List<int> list = new List<int>();
 
             while (largest >= 1)
             {
-                int maxIndex = FindMaxIndex(A, largest);
+                int maxIndex = FindMaxIndex(a, largest);
 
-                Reverse(A, maxIndex);
+                Reverse(a, maxIndex);
                 list.Add(maxIndex + 1);
 
-                Reverse(A, largest - 1);
+                Reverse(a, largest - 1);
                 list.Add(largest);
 
                 largest--;
@@ -76,25 +76,25 @@ namespace Algorithm_A_Day.Arrays.LeetCode
             return list;
         }
 
-        private static int FindMaxIndex(int[] A, int lastIndex)
+        private static int FindMaxIndex(int[] a, int lastIndex)
         {
             int maxIndex = 0;
             for (int i = 1; i < lastIndex; i++)
             {
-                if (A[i] > A[maxIndex])
+                if (a[i] > a[maxIndex])
                     maxIndex = i;
             }
             return maxIndex;
         }
 
-        private static void Reverse(int[] A, int maxIndex)
+        private static void Reverse(int[] a, int maxIndex)
         {
             int startIndex = 0;
             while (startIndex < maxIndex)
             {
-                int temp = A[startIndex];
-                A[startIndex] = A[maxIndex];
-                A[maxIndex] = temp;
+                int temp = a[startIndex];
+                a[startIndex] = a[maxIndex];
+                a[maxIndex] = temp;
                 startIndex++;
                 maxIndex--;
             }

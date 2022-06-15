@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.Sliding_Window
 {
-    public class Longest_Substring_with_K_Distinct_Characters
+    public class LongestSubstringWithKDistinctCharacters
     {
         public static int FindLength(string str, int k)
         {

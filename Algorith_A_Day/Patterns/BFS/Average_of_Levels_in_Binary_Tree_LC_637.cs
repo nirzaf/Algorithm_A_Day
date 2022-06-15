@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.BFS
 {
-    public class Average_of_Levels_in_Binary_Tree_LC_637
+    public class AverageOfLevelsInBinaryTreeLc637
     {
         public static IList<double> AverageOfLevels(TreeNode root)
         {

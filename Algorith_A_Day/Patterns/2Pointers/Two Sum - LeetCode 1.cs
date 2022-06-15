@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns._2Pointers
 {
-    public class Two_Sum___LeetCode_1
+    public class TwoSumLeetCode1
     {
 
         //it works only for sorted arr which cannot be the case here

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.DP_01Knapsack
 {
-    public class Partition_Equal_Subset_Sum_LC_416
+    public class PartitionEqualSubsetSumLc416
     {
         // DP tabulation
         public static bool CanPartition(int[] nums)

@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomMedium
 {
-    public class Sum__Array_1685_LC_M
+    public class SumArray1685LcM
     {
 
         /// <summary>

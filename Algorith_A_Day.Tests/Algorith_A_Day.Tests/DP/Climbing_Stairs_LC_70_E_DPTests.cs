@@ -3,13 +3,13 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.DP
 {
-    public class Climbing_Stairs_LC_70_E_DPTests
+    public class ClimbingStairsLc70EDpTests
     {
-        private readonly Climbing_Stairs_LC_70_E_DP _sut;
+        private readonly ClimbingStairsLc70EDp _sut;
 
-        public Climbing_Stairs_LC_70_E_DPTests()
+        public ClimbingStairsLc70EDpTests()
         {
-            _sut = new Climbing_Stairs_LC_70_E_DP();
+            _sut = new ClimbingStairsLc70EDp();
         }
 
         [Theory]

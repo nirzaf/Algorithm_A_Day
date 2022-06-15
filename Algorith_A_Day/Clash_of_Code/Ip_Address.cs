@@ -2,7 +2,7 @@
 {
     // descriptions of tasks in  yt video 
     // https://www.youtube.com/watch?v=Aoy2MRvYK2A&t=146s
-    public class Ip_Address
+    public class IpAddress
     {
         public int GetPort(string ip)
         {

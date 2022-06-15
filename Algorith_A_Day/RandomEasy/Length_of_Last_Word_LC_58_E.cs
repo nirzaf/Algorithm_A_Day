@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Length_of_Last_Word_LC_58_E
+    public class LengthOfLastWordLc58E
     {
         public static int LengthOfLastWord(string s)
         {

@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.CyclicSort
 {
-    public class Set_Mismatch_LC_645
+    public class SetMismatchLc645
     {
         public static int[] FindErrorNums(int[] nums)
         {

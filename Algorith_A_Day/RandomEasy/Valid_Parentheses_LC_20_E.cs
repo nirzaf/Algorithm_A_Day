@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Valid_Parentheses_LC_20_E
+    public class ValidParenthesesLc20E
     {
         /// <summary>
         /// iterate over the string

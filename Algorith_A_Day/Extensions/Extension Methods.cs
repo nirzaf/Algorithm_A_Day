@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Extensions
 {
-    public static class Extension_Methods
+    public static class ExtensionMethods
     {
         public static TValue GetValueOrDefault<TKey, TValue>
                         (this IDictionary<TKey, TValue> dictionary,

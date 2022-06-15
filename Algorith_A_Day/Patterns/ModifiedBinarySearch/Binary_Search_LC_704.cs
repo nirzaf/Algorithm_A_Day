@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Patterns.ModifiedBinarySearch
 {
-    public class Binary_Search_LC_704
+    public class BinarySearchLc704
     {
         public static int Search(int[] nums, int target)
         {

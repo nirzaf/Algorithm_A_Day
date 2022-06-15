@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Multidimensional_Arrays
 {
-    public class Spiral_Matrix_II_59
+    public class SpiralMatrixIi59
     {
         public static int[][] GenerateMatrix(int n)
         {

@@ -8,7 +8,7 @@ namespace Algorithm_A_Day.Patterns._2Pointers
     /// better option is to check until the chars are the same and then check if ranges of string is a palindrome where 
     /// ranges is [i+ 1...j] and [i...j -1] so for string abcXcpba we check string cXcp cutting ab and ba couse they met the conditions of palindrome
     /// </summary>
-    public class Valid_Palindrome_II_LeetCode680
+    public class ValidPalindromeIiLeetCode680
     {
 
         public static bool ValidPalindrome(string s)

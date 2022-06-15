@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.BFS
 {
-    public class Minimum_Depth_Binary_Tree_LC_111
+    public class MinimumDepthBinaryTreeLc111
     {
         public static int MinDepth(TreeNode root)
         {
@@ -78,11 +78,11 @@ namespace Algorithm_A_Day.Patterns.BFS
         {
             int minDepth = int.MaxValue;
             //ref is used here so not the copy but memory of this exact variable
-            findMinDepth(root, 0, ref minDepth);
+            FindMinDepth(root, 0, ref minDepth);
             return minDepth == int.MaxValue ? 0 : minDepth;
         }
 
-        private void findMinDepth(TreeNode node, int currentDepth, ref int minDepth)
+        private void FindMinDepth(TreeNode node, int currentDepth, ref int minDepth)
         {
             if (node != null)
             {
@@ -93,8 +93,8 @@ namespace Algorithm_A_Day.Patterns.BFS
 
                 else
                 {
-                    findMinDepth(node.left, currentDepth + 1, ref minDepth);
-                    findMinDepth(node.right, currentDepth + 1, ref minDepth);
+                    FindMinDepth(node.left, currentDepth + 1, ref minDepth);
+                    FindMinDepth(node.right, currentDepth + 1, ref minDepth);
                 }
             }
         }

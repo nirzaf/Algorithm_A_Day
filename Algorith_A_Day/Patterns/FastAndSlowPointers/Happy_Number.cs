@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.FastAndSlowPointers
 {
-    public class Happy_Number
+    public class HappyNumber
     {
         public static bool IsHappy(int n)
         {

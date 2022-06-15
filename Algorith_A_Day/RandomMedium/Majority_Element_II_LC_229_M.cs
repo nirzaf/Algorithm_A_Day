@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomMedium
 {
-    public class Majority_Element_II_LC_229_M
+    public class MajorityElementIiLc229M
     {
         public static IList<int> MajorityElement(int[] nums)
         {

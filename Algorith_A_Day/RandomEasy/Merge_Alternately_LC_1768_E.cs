@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.RandomEasy
 {
-    public class Merge_Alternately_LC_1768_E
+    public class MergeAlternatelyLc1768E
     {
         public string MergeAlternately(string word1, string word2)
         {

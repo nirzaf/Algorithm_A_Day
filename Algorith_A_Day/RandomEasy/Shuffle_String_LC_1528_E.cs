@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Shuffle_String_LC_1528_E
+    public class ShuffleStringLc1528E
     {
         public string RestoreString(string s, int[] indices)
         {

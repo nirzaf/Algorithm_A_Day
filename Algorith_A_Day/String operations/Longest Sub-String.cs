@@ -1,7 +1,7 @@
 ﻿namespace Algorithm_A_Day.String_operations
 {
     //TODO: compare to example in Algo file 
-    public class Longest_Sub_String
+    public class LongestSubString
     {
         public static string GetLongestSubString(string input)
         {

@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Sorting.MergeSort
 {
-    public class MS_with_2_arrays
+    public class MsWith2Arrays
     {
         public static void MergeSort2(int[] arr, int l, int r)
         {
@@ -20,17 +20,17 @@
             int n1 = m - l + 1;
             int n2 = r - m;
 
-            var L = new int[n1];
-            var R = new int[n2];
+            var l = new int[n1];
+            var r = new int[n2];
 
             for (i = 0; i < n1; i++)
             {
-                L[i] = arr[l + i];
+                l[i] = arr[l + i];
             }
             
             for (j = 0; j < n2; j++)
             {
-                R[j] = arr[m + 1 +j];
+                r[j] = arr[m + 1 +j];
             }
             i = 0;
             j = 0;
@@ -38,27 +38,27 @@
 
             while(i < n1 && j < n2)
             {
-                if(L[i] <= R[j])
+                if(l[i] <= r[j])
                 {
-                    arr[k] = L[i];
+                    arr[k] = l[i];
                     i++;
                 }
                 else
                 {
-                    arr[k] = R[j];
+                    arr[k] = r[j];
                     j++;
                 }
                 k++;
             }
             while (i < n1)
             {
-                arr[k] = L[i];
+                arr[k] = l[i];
                 i++;
                 k++;
             }
             while (j < n2)
             {
-                arr[k] = R[j];
+                arr[k] = r[j];
                 j++;
                 k++;
             }

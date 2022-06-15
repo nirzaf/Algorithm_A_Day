@@ -2,34 +2,34 @@
 
 namespace Algorithm_A_Day.DesignOnes
 {
-    public class Design_Ordered_Stream_LC_1656_E
+    public class DesignOrderedStreamLc1656E
     {
-        private string[] result;
-        private int index = 1;
+        private string[] _result;
+        private int _index = 1;
 
-        public Design_Ordered_Stream_LC_1656_E(int n)
+        public DesignOrderedStreamLc1656E(int n)
         {
-            result = new string[n + 1];
-            index = 1;
+            _result = new string[n + 1];
+            _index = 1;
         }
 
         public IList<string> Insert(int id, string value)
         {
             var res = new List<string>();
             var current = id;
-            result[current] = value;
+            _result[current] = value;
 
-            if (index == id)
+            if (_index == id)
             {
-                for (; current < result.Length; current++)
+                for (; current < _result.Length; current++)
                 {
-                    if (result[current] != null)
+                    if (_result[current] != null)
                     {
-                        res.Add(result[current]);
+                        res.Add(_result[current]);
                     }
                     else break;
                 }
-                index = current;
+                _index = current;
             }
             return res;
         }

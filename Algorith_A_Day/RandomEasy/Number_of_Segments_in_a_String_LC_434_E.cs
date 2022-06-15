@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Number_of_Segments_in_a_String_LC_434_E
+    public class NumberOfSegmentsInAStringLc434E
     {
         public static int CountSegments(string s)
         {

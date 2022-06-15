@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.Patterns.ReverseLinkedList
 {
-    public class Reverse_Linked_List_LC_206
+    public class ReverseLinkedListLc206
     {
         //iteratively
         //TODO: why head is 1 at the end ?????

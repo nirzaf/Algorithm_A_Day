@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Merge_Alternately_LC_1768_E_Tests
+    public class MergeAlternatelyLc1768ETests
     {
-        private Merge_Alternately_LC_1768_E _sut;
-        public Merge_Alternately_LC_1768_E_Tests()
+        private MergeAlternatelyLc1768E _sut;
+        public MergeAlternatelyLc1768ETests()
         {
-            _sut = new Merge_Alternately_LC_1768_E();
+            _sut = new MergeAlternatelyLc1768E();
         }
 
         [Theory]

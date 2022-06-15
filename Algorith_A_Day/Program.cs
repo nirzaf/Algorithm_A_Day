@@ -40,7 +40,7 @@ namespace Algorith_A_Day
             ListNode z1 = new ListNode(2), z2 = new ListNode(6);
             z1.next = z2;
 
-            var listOfLN = new ListNode[] { x1, y1, z1 };
+            var listOfLn = new ListNode[] { x1, y1, z1 };
 
 
 
@@ -66,7 +66,7 @@ namespace Algorith_A_Day
             };
 
             // each array len must be the same
-            int[,] TwoDArray = new int[3, 4] {
+            int[,] twoDArray = new int[3, 4] {
                 { 1, 2, 3, 8 },
                 { 4, 5, 6, 9 },
                 { 7, 8, 9, 10 }
@@ -90,7 +90,7 @@ namespace Algorith_A_Day
             //Self_Dividing_Numbers_LC_728_E.SelfDividingNumbers(1, 22);
 
             //Majority_Element_II_LC_229_M.MajorityElement(testArr);
-            Number_of_Segments_in_a_String_LC_434_E.CountSegments("Of all the gin joints in all the towns in all the world,   ");
+            NumberOfSegmentsInAStringLc434E.CountSegments("Of all the gin joints in all the towns in all the world,   ");
         }
         
         public static ListNode ReverseList(ListNode head)

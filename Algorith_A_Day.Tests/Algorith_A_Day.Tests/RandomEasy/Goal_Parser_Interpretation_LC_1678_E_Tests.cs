@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Goal_Parser_Interpretation_LC_1678_E_Tests
+    public class GoalParserInterpretationLc1678ETests
     {
-        private Goal_Parser_Interpretation_LC_1678_E _sut;
-        public Goal_Parser_Interpretation_LC_1678_E_Tests()
+        private GoalParserInterpretationLc1678E _sut;
+        public GoalParserInterpretationLc1678ETests()
         {
-            _sut = new Goal_Parser_Interpretation_LC_1678_E();
+            _sut = new GoalParserInterpretationLc1678E();
         }
 
 

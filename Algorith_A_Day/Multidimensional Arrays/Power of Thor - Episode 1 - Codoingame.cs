@@ -6,7 +6,7 @@ namespace Algorithm_A_Day.Grid_Based
     /// <summary>
     /// NOTICE; (0,0) is top left corner so y while icreasing it goes down instead of up in the classsical geometry
     /// </summary>
-    public class Power_of_Thor___Episode_1___Codoingame
+    public class PowerOfThorEpisode1Codoingame
     {
         public static void MoveThor()
         {
@@ -17,11 +17,11 @@ namespace Algorithm_A_Day.Grid_Based
             inputs[3] = Console.ReadLine();
             int lightX = int.Parse(inputs[0]); // the X position of the light of power
             int lightY = int.Parse(inputs[1]); // the Y position of the light of power
-            int initialTX = int.Parse(inputs[2]); // Thor's starting X position
-            int initialTY = int.Parse(inputs[3]); // Thor's starting Y position
+            int initialTx = int.Parse(inputs[2]); // Thor's starting X position
+            int initialTy = int.Parse(inputs[3]); // Thor's starting Y position
 
-            int thorX = initialTX;
-            int thorY = initialTY;
+            int thorX = initialTx;
+            int thorY = initialTy;
 
             // game loop
             while (true)

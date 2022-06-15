@@ -5,7 +5,7 @@ namespace Algorithm_A_Day.DP
     /// <summary>
     /// Longest common subsequence problem
     /// </summary>
-    public class Delete_Operation_for_Two_Strings_LC_583
+    public class DeleteOperationForTwoStringsLc583
     {
         //public static int MinDistance(string word1, string word2)
         //{

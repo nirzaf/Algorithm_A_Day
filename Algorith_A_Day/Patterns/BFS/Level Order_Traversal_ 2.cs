@@ -7,7 +7,7 @@ namespace Algorithm_A_Day.Patterns.BFS
     /// The algorithm is the same as Classic Level Order Traversal but we need to reverse the the list at the end or
     /// we can insert every new sublist at the beginning of the main list with list.Insert(0, Sublist) where 0 is the index 
     /// </summary>
-    public class Level_Order_Traversal__2
+    public class LevelOrderTraversal2
     {
         public static IList<IList<int>> LevelOrderTraversal(TreeNode root)
         {

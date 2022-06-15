@@ -3,12 +3,12 @@ using Xunit;
 
 namespace Algorith_A_Day.Tests.RandomEasy
 {
-    public class Add_Binary_67_LC_ETests
+    public class AddBinary67LcETests
     {
-        private readonly Add_Binary_67_LC_E _sut;
-        public Add_Binary_67_LC_ETests()
+        private readonly AddBinary67LcE _sut;
+        public AddBinary67LcETests()
         {
-            _sut = new Add_Binary_67_LC_E();
+            _sut = new AddBinary67LcE();
         }
 
 

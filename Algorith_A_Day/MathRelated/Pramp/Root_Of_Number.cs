@@ -5,7 +5,7 @@ namespace Algorithm_A_Day.MathRelated.Pramp
     /// <summary>
     /// https://www.youtube.com/watch?v=S2VfJh8J0gc&t=2788s
     /// </summary>
-    public class Root_Of_Number
+    public class RootOfNumber
     {
         public static double Root(double x, int n)
         {

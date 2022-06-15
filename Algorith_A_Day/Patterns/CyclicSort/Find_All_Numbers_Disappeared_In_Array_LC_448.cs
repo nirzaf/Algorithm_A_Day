@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns.CyclicSort
 {
-    public class Find_All_Numbers_Disappeared_In_Array_LC_448
+    public class FindAllNumbersDisappearedInArrayLc448
     {
         public static IList<int> FindDisappearedNumbers(int[] nums)
         {

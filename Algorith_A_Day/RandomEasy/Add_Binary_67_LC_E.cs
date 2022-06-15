@@ -2,7 +2,7 @@
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class Add_Binary_67_LC_E
+    public class AddBinary67LcE
     {
         // real BRUTE force xDDDD
 

@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_A_Day.Patterns._2Pointers
 {
-    public class Remove_Duplicates_from_Sorted_Array_LC_26
+    public class RemoveDuplicatesFromSortedArrayLc26
     {
         //for reason i can't see it doesn't pass the tests
         public static int RemoveDuplicates(int[] nums)

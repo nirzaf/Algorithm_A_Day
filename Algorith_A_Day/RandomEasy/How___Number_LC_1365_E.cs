@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.RandomEasy
 {
-    public class How___Number_LC_1365_E
+    public class HowNumberLc1365E
     {
         public int[] SmallerNumbersThanCurrent(int[] nums)
         {

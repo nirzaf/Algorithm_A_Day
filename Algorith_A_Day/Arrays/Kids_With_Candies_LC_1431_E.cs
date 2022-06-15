@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Arrays
 {
-    public class Kids_With_Candies_LC_1431_E
+    public class KidsWithCandiesLc1431E
     {
         public IList<bool> KidsWithCandies(int[] candies, int extraCandies)
         {

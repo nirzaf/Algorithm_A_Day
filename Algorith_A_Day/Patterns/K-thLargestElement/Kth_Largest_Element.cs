@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Algorithm_A_Day.Patterns.K_thLargestElement
 {
-    public class Kth_Largest_Element
+    public class KthLargestElement
     {
         // naive solution n log(n) as it uses .net sort algo (insertion if n < 16 , or heap or quick sort)
         public int FindKthLargest(int[] nums, int k)

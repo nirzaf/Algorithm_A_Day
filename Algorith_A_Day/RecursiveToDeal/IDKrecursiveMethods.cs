@@ -3,7 +3,7 @@ using System;
 
 namespace Algorithm_A_Day.RecursiveToDeal
 {
-    public class IDKrecursiveMethods
+    public class IdKrecursiveMethods
     {
         public int MinDepth(TreeNode root)
         {

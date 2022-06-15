@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BST.Traversals
 {
-    class AdvancedBT
+    class AdvancedBt
     {
         //The the basic idea is to take the last element in postorder array as the root,
         //find the position of the root in the inorder array;
@@ -57,10 +57,10 @@ namespace BST.Traversals
         //RECURSIVELY
         public TreeNode BuildTreeInPostRecur(int[] inorder, int[] postorder)
         {
-            return DFS(inorder, 0, inorder.Length - 1, postorder, 0, postorder.Length - 1);
+            return Dfs(inorder, 0, inorder.Length - 1, postorder, 0, postorder.Length - 1);
         }
 
-        private TreeNode DFS(int[] inOrder, int inLeft, int inRight, int[] postOrder, int postLeft, int postRight)
+        private TreeNode Dfs(int[] inOrder, int inLeft, int inRight, int[] postOrder, int postLeft, int postRight)
         {
             if (postLeft > postRight)
             {
@@ -83,8 +83,8 @@ namespace BST.Traversals
             }
 
             var cur = new TreeNode(curValue);
-            cur.left = DFS(inOrder, inLeft, i - 1, postOrder, postLeft, postLeft + count - 1);
-            cur.right = DFS(inOrder, i + 1, inRight, postOrder, postLeft + count, postRight - 1);
+            cur.left = Dfs(inOrder, inLeft, i - 1, postOrder, postLeft, postLeft + count - 1);
+            cur.right = Dfs(inOrder, i + 1, inRight, postOrder, postLeft + count, postRight - 1);
 
             return cur;
         }
@@ -169,7 +169,7 @@ namespace BST.Traversals
         //LOWEST COMMON ANCESTOR
         //RECURSIVELY
 
-        public static TreeNode LCARecur(TreeNode root, TreeNode p, TreeNode q)
+        public static TreeNode LcaRecur(TreeNode root, TreeNode p, TreeNode q)
         {
             if(root == null || p == null || q == null)
             {
@@ -178,8 +178,8 @@ namespace BST.Traversals
 
             if (root.val == q.val || root.val == p.val) return root;
 
-            var left = LCARecur(root.left, p, q);
-            var right = LCARecur(root.right, p, q);
+            var left = LcaRecur(root.left, p, q);
+            var right = LcaRecur(root.right, p, q);
 
             if (left != null && right != null) return root;
             else if (left != null) return left;
@@ -187,7 +187,7 @@ namespace BST.Traversals
         }
 
         //ITERATIVELY
-        public static TreeNode LCAIter(TreeNode root, TreeNode p, TreeNode q)
+        public static TreeNode LcaIter(TreeNode root, TreeNode p, TreeNode q)
         {
             
             if (root == null)
@@ -205,8 +205,8 @@ namespace BST.Traversals
             List<TreeNode> path1 = new List<TreeNode>();
             List<TreeNode> path2 = new List<TreeNode>();
 
-            path1 = getPath(root, p, path1);
-            path2 = getPath(root, q, path2);
+            path1 = GetPath(root, p, path1);
+            path2 = GetPath(root, q, path2);
             if (path1.Count > 1 && path2.Count > 1)
             {
                 for (int i = 0; i < path1.Count; i++)
@@ -226,7 +226,7 @@ namespace BST.Traversals
         /**
             * Return the path from root to node
             */
-        private static List<TreeNode> getPath(TreeNode root, TreeNode node, List<TreeNode> path)
+        private static List<TreeNode> GetPath(TreeNode root, TreeNode node, List<TreeNode> path)
         {
             if (root == null)
             {
@@ -249,37 +249,37 @@ namespace BST.Traversals
                 path.Add(root.right);
                 return path;
             }
-            if (isLeftChild(root, node))
+            if (IsLeftChild(root, node))
             {
                 path.Add(root);
-                return getPath(root.left, node, path);
+                return GetPath(root.left, node, path);
             }
             else
             {
                 path.Add(root);
-                return getPath(root.right, node, path);
+                return GetPath(root.right, node, path);
             }
         }
         /**
                 * Return true if the a given node is in the left subtree
             */
-        private static bool isLeftChild(TreeNode root, TreeNode node)
+        private static bool IsLeftChild(TreeNode root, TreeNode node)
         {
-            return isChild(root.left, node);
+            return IsChild(root.left, node);
         }
 
         /**
             * Return true if the a given node is in the right subtree
         */
-        private static bool isRightChild(TreeNode root, TreeNode node)
+        private static bool IsRightChild(TreeNode root, TreeNode node)
         {
-            return isChild(root.right, node);
+            return IsChild(root.right, node);
         }
 
         /**
             * Return true if the a given node is a child of the tree rooted at parent.
         */
-        private static bool isChild(TreeNode parent, TreeNode child)
+        private static bool IsChild(TreeNode parent, TreeNode child)
         {
             if (parent == null)
             {
@@ -289,13 +289,13 @@ namespace BST.Traversals
             {
                 return true;
             }
-            return (isChild(parent.left, child) || isChild(parent.right, child));
+            return (IsChild(parent.left, child) || IsChild(parent.right, child));
         }
 
 
         //============SERIALIZATION
 
-        static void preorderSerialize(TreeNode node, StringBuilder sb)
+        static void PreorderSerialize(TreeNode node, StringBuilder sb)
         {
             if (node == null)
             {
@@ -305,11 +305,11 @@ namespace BST.Traversals
 
             sb.Append(node.val); sb.Append(",");
 
-            preorderSerialize(node.left, sb);
-            preorderSerialize(node.right, sb);
+            PreorderSerialize(node.left, sb);
+            PreorderSerialize(node.right, sb);
         }
 
-        static TreeNode preorderDeserialize(string[] nodes, ref int pos)
+        static TreeNode PreorderDeserialize(string[] nodes, ref int pos)
         {
             if (nodes[pos] == "#")
             {
@@ -317,25 +317,25 @@ namespace BST.Traversals
                 return null;
             }
             var node = new TreeNode(int.Parse(nodes[pos++]));
-            node.left = preorderDeserialize(nodes, ref pos);
-            node.right = preorderDeserialize(nodes, ref pos);
+            node.left = PreorderDeserialize(nodes, ref pos);
+            node.right = PreorderDeserialize(nodes, ref pos);
             return node;
         }
 
         // Encodes a tree to a single string.
-        public static string serialize(TreeNode root)
+        public static string Serialize(TreeNode root)
         {
             var sb = new StringBuilder();
-            preorderSerialize(root, sb);
+            PreorderSerialize(root, sb);
             return sb.ToString().Trim(','); //remove trailing comma
         }
 
         // Decodes your encoded data to tree.
-        public static TreeNode deserialize(string data)
+        public static TreeNode Deserialize(string data)
         {
             int pos = 0;
             var tokens = data.Split(',');
-            return preorderDeserialize(tokens, ref pos);
+            return PreorderDeserialize(tokens, ref pos);
         }
 
 

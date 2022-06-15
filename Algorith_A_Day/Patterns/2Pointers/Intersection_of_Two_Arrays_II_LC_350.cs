@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithm_A_Day.Patterns._2Pointers
 {
-    public class Intersection_of_Two_Arrays_II_LC_350
+    public class IntersectionOfTwoArraysIiLc350
     {
         public static int[] Intersect(int[] nums1, int[] nums2)
         {
